@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Détail du match — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div id="match-header" class="card">Chargement…</div>
+
+  <div class="section-title" style="margin-top:32px;">
+    <h2>Buts et cartons</h2>
+  </div>
+  <div id="events-list">Chargement…</div>
+
+  <div id="admin-panel" style="display:none; margin-top:36px;">
+    <div class="section-title"><h2>Gestion du match (admin / arbitre)</h2></div>
+    <div class="card" style="max-width:480px; margin-bottom:20px;">
+      <div style="font-weight:700; margin-bottom:10px;">Saisir le score final</div>
+      <form class="form-panel" id="form-score">
+        <div style="display:flex; gap:12px;">
+          <div><label>Score domicile</label><input type="number" min="0" id="score-domicile" required></div>
+          <div><label>Score extérieur</label><input type="number" min="0" id="score-exterieur" required></div>
+        </div>
+        <div class="form-error" id="score-error"></div>
+        <button class="btn btn-primary" type="submit">Enregistrer le résultat</button>
+      </form>
+    </div>
+
+    <div class="card" style="max-width:480px;">
+      <div style="font-weight:700; margin-bottom:10px;">Ajouter un événement</div>
+      <form class="form-panel" id="form-event">
+        <div>
+          <label>Joueur</label>
+          <select id="event-joueur" required></select>
+        </div>
+        <div>
+          <label>Type d'événement</label>
+          <select id="event-type" required>
+            <option value="but">⚽ But</option>
+            <option value="carton_jaune">🟨 Carton jaune</option>
+            <option value="carton_rouge">🟥 Carton rouge</option>
+          </select>
+        </div>
+        <div><label>Minute</label><input type="number" min="0" max="120" id="event-minute" required></div>
+        <div class="form-error" id="event-error"></div>
+        <button class="btn btn-primary" type="submit">Ajouter</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('calendrier.html');
+const matchId = new URLSearchParams(window.location.search).get('id');
+let matchCache = null;
+
+async function chargerMatch() {
+  if (!matchId) return;
+  try {
+    matchCache = await apiFetch(`/matches/${matchId}`);
+    const [equipeDomicile, equipeExterieur] = await Promise.all([
+      apiFetch(`/teams/${matchCache.equipeDomicileId}`),
+      apiFetch(`/teams/${matchCache.equipeExterieurId}`)
+    ]);
+    matchCache._domicile = equipeDomicile;
+    matchCache._exterieur = equipeExterieur;
+
+    const statutClass = matchCache.status === 'terminé' ? 'status-termine' : 'status-avenir';
+    const score = matchCache.status === 'terminé'
+      ? `<span class="score" style="font-size:32px;">${matchCache.scoreDomicile} - ${matchCache.scoreExterieur}</span>`
+      : `<span style="color:var(--gris); font-size:22px;">vs</span>`;
+
+    document.getElementById('match-header').innerHTML = `
+      <div class="eyebrow-free">${matchCache.phase}</div>
+      <div style="display:flex; align-items:center; gap:20px; font-size:26px; font-weight:800; margin:10px 0;">
+        <span>${equipeDomicile.nom}</span>${score}<span>${equipeExterieur.nom}</span>
+      </div>
+      <span class="status-pill ${statutClass}">${matchCache.status}</span>
+      <div style="color:var(--gris); margin-top:10px;">${matchCache.date} à ${matchCache.heure}</div>
+    `;
+
+    afficherEvenements(equipeDomicile, equipeExterieur);
+    initPanelAdmin(equipeDomicile, equipeExterieur);
+  } catch (e) {
+    document.getElementById('match-header').innerHTML = 'Match introuvable.';
+  }
+}
+
+function afficherEvenements(dom, ext) {
+  const events = matchCache.evenements || [];
+  const list = document.getElementById('events-list');
+  if (!events.length) { list.innerHTML = '<div class="card">Aucun événement enregistré pour ce match.</div>'; return; }
+  list.innerHTML = events
+    .sort((a, b) => a.minute - b.minute)
+    .map(ev => {
+      const icone = ev.type === 'but' ? '⚽' : ev.type === 'carton_jaune' ? '🟨' : '🟥';
+      return `<div class="match-card"><div>${icone} ${ev.minute}' — Joueur (id ${ev.joueurId.slice(0,8)})</div></div>`;
+    }).join('');
+}
+
+async function initPanelAdmin(dom, ext) {
+  const user = getUser();
+  if (!user || !['admin', 'arbitre'].includes(user.role)) return;
+  document.getElementById('admin-panel').style.display = 'block';
+
+  const [joueursDom, joueursExt] = await Promise.all([
+    apiFetch(`/players?equipeId=${dom.id}`),
+    apiFetch(`/players?equipeId=${ext.id}`)
+  ]);
+  const select = document.getElementById('event-joueur');
+  select.innerHTML =
+    `<optgroup label="${dom.nom}">${joueursDom.map(j => `<option value="${j.id}">${j.nom}</option>`).join('')}</optgroup>` +
+    `<optgroup label="${ext.nom}">${joueursExt.map(j => `<option value="${j.id}">${j.nom}</option>`).join('')}</optgroup>`;
+
+  if (matchCache.status === 'terminé') {
+    document.getElementById('score-domicile').value = matchCache.scoreDomicile;
+    document.getElementById('score-exterieur').value = matchCache.scoreExterieur;
+  }
+
+  document.getElementById('form-score').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('score-error');
+    errEl.textContent = '';
+    try {
+      await apiFetch(`/matches/${matchId}/resultat`, {
+        method: 'PUT',
+        body: JSON.stringify({
+          scoreDomicile: document.getElementById('score-domicile').value,
+          scoreExterieur: document.getElementById('score-exterieur').value
+        })
+      });
+      chargerMatch();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+
+  document.getElementById('form-event').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('event-error');
+    errEl.textContent = '';
+    try {
+      await apiFetch(`/matches/${matchId}/evenement`, {
+        method: 'POST',
+        body: JSON.stringify({
+          joueurId: document.getElementById('event-joueur').value,
+          type: document.getElementById('event-type').value,
+          minute: document.getElementById('event-minute').value
+        })
+      });
+      chargerMatch();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+}
+
+chargerMatch();
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistiques — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div class="section-title"><h2>Statistiques du championnat</h2></div>
+  <div class="grid grid-4" id="stats-overview" style="margin-bottom:44px;">Chargement…</div>
+
+  <div class="section-title"><h2>Meilleurs buteurs</h2></div>
+  <div class="card">
+    <table class="standings">
+      <thead><tr><th>#</th><th>Joueur</th><th>Buts</th></tr></thead>
+      <tbody id="buteurs-body"><tr><td colspan="3">Chargement…</td></tr></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('statistiques.html');
+
+async function chargerStats() {
+  try {
+    const stats = await apiFetch('/stats');
+    document.getElementById('stats-overview').innerHTML = `
+      <div class="card stat-block"><div class="num">${stats.totalMatchsJoues}</div><div class="lab">Matchs joués</div></div>
+      <div class="card stat-block"><div class="num">${stats.totalButs}</div><div class="lab">Buts marqués</div></div>
+      <div class="card stat-block"><div class="num">${stats.moyenneButsParMatch}</div><div class="lab">Buts / match</div></div>
+      <div class="card stat-block"><div class="num">${stats.totalCartonsJaunes}</div><div class="lab">Cartons jaunes</div></div>
+      <div class="card stat-block"><div class="num">${stats.totalCartonsRouges}</div><div class="lab">Cartons rouges</div></div>
+    `;
+  } catch (e) {}
+
+  try {
+    const buteurs = await apiFetch('/standings/buteurs');
+    document.getElementById('buteurs-body').innerHTML = buteurs.length ? buteurs.map((b, i) => `
+      <tr><td class="rang">${i + 1}</td><td>${b.nom}</td><td class="pts">${b.buts}</td></tr>
+    `).join('') : '<tr><td colspan="3">Aucun but marqué pour le moment.</td></tr>';
+  } catch (e) {
+    document.getElementById('buteurs-body').innerHTML = '<tr><td colspan="3">Erreur de chargement.</td></tr>';
+  }
+}
+
+chargerStats();
+</script>
+</body>
+</html>

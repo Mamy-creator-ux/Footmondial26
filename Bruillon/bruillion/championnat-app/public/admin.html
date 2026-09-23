@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Espace administrateur — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div class="section-title"><h2>Espace administrateur</h2></div>
+  <div id="acces-refuse" class="card" style="display:none;">Cet espace est réservé aux administrateurs. <a href="connexion.html" style="color:var(--vert-vif);">Se connecter</a>.</div>
+
+  <div id="admin-content" style="display:none;">
+    <div class="tabs" id="admin-tabs">
+      <button data-tab="matchs" class="active">Programmer un match</button>
+      <button data-tab="equipes">Équipes</button>
+      <button data-tab="stades">Stades</button>
+      <button data-tab="arbitres">Arbitres</button>
+      <button data-tab="utilisateurs">Utilisateurs</button>
+    </div>
+
+    <section id="tab-matchs">
+      <div class="card" style="max-width:520px;">
+        <form class="form-panel" id="form-match">
+          <div><label>Équipe à domicile</label><select id="m-domicile" required></select></div>
+          <div><label>Équipe à l'extérieur</label><select id="m-exterieur" required></select></div>
+          <div style="display:flex; gap:12px;">
+            <div style="flex:1;"><label>Date</label><input type="date" id="m-date" required></div>
+            <div style="flex:1;"><label>Heure</label><input type="time" id="m-heure" required value="18:00"></div>
+          </div>
+          <div><label>Stade</label><select id="m-stade" required></select></div>
+          <div><label>Arbitre</label><select id="m-arbitre" required></select></div>
+          <div><label>Phase</label><input type="text" id="m-phase" value="Phase de groupes" required></div>
+          <div class="form-error" id="m-error"></div>
+          <div class="form-success" id="m-success"></div>
+          <button class="btn btn-primary" type="submit">Programmer le match</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="tab-equipes" style="display:none;">
+      <div class="card" style="max-width:520px; margin-bottom:20px;">
+        <div style="font-weight:700; margin-bottom:10px;">Ajouter une équipe</div>
+        <form class="form-panel" id="form-equipe">
+          <div><label>Nom de l'équipe</label><input type="text" id="e-nom" required></div>
+          <div><label>Groupe</label>
+            <select id="e-groupe"></select>
+          </div>
+          <div class="form-error" id="e-error"></div>
+          <button class="btn btn-primary" type="submit">Ajouter</button>
+        </form>
+      </div>
+      <div id="liste-equipes" class="grid grid-3"></div>
+    </section>
+
+    <section id="tab-stades" style="display:none;">
+      <div class="card" style="max-width:520px; margin-bottom:20px;">
+        <div style="font-weight:700; margin-bottom:10px;">Ajouter un stade</div>
+        <form class="form-panel" id="form-stade">
+          <div><label>Nom</label><input type="text" id="s-nom" required></div>
+          <div><label>Ville</label><input type="text" id="s-ville" required></div>
+          <div><label>Capacité</label><input type="number" id="s-capacite"></div>
+          <div class="form-error" id="s-error"></div>
+          <button class="btn btn-primary" type="submit">Ajouter</button>
+        </form>
+      </div>
+      <div id="liste-stades" class="grid grid-3"></div>
+    </section>
+
+    <section id="tab-arbitres" style="display:none;">
+      <div class="card" style="max-width:520px; margin-bottom:20px;">
+        <div style="font-weight:700; margin-bottom:10px;">Ajouter un arbitre</div>
+        <form class="form-panel" id="form-arbitre">
+          <div><label>Nom</label><input type="text" id="a-nom" required></div>
+          <div><label>Nationalité</label><input type="text" id="a-nationalite"></div>
+          <div class="form-error" id="a-error"></div>
+          <button class="btn btn-primary" type="submit">Ajouter</button>
+        </form>
+      </div>
+      <div id="liste-arbitres" class="grid grid-3"></div>
+    </section>
+
+    <section id="tab-utilisateurs" style="display:none;">
+      <div id="liste-utilisateurs" class="grid grid-3"></div>
+    </section>
+  </div>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('admin.html');
+const user = getUser();
+document.getElementById('e-groupe').innerHTML = ['A','B','C','D','E','F','G','H','I','J','K','L'].map(g => `<option>${g}</option>`).join('');
+
+if (!user || user.role !== 'admin') {
+  document.getElementById('acces-refuse').style.display = 'block';
+} else {
+  document.getElementById('admin-content').style.display = 'block';
+  initAdmin();
+}
+
+document.querySelectorAll('#admin-tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#admin-tabs button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('main > div#admin-content > section').forEach(s => s.style.display = 'none');
+    document.getElementById(`tab-${btn.dataset.tab}`).style.display = 'block';
+  });
+});
+
+async function initAdmin() {
+  const [teams, stadiums, referees] = await Promise.all([
+    apiFetch('/teams'), apiFetch('/stadiums'), apiFetch('/referees')
+  ]);
+
+  // Formulaire de match
+  const optionsTeams = teams.sort((a,b)=>a.nom.localeCompare(b.nom)).map(t => `<option value="${t.id}">${t.nom} (Gr. ${t.groupe})</option>`).join('');
+  document.getElementById('m-domicile').innerHTML = optionsTeams;
+  document.getElementById('m-exterieur').innerHTML = optionsTeams;
+  document.getElementById('m-stade').innerHTML = stadiums.map(s => `<option value="${s.id}">${s.nom} (${s.ville})</option>`).join('');
+  document.getElementById('m-arbitre').innerHTML = referees.map(r => `<option value="${r.id}">${r.nom}</option>`).join('');
+
+  document.getElementById('form-match').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('m-error');
+    const okEl = document.getElementById('m-success');
+    errEl.textContent = ''; okEl.textContent = '';
+    try {
+      await apiFetch('/matches', {
+        method: 'POST',
+        body: JSON.stringify({
+          equipeDomicileId: document.getElementById('m-domicile').value,
+          equipeExterieurId: document.getElementById('m-exterieur').value,
+          date: document.getElementById('m-date').value,
+          heure: document.getElementById('m-heure').value,
+          stadeId: document.getElementById('m-stade').value,
+          arbitreId: document.getElementById('m-arbitre').value,
+          phase: document.getElementById('m-phase').value
+        })
+      });
+      okEl.textContent = 'Match programmé avec succès.';
+      e.target.reset();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+
+  afficherEquipes(teams);
+  document.getElementById('form-equipe').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('e-error');
+    errEl.textContent = '';
+    try {
+      await apiFetch('/teams', {
+        method: 'POST',
+        body: JSON.stringify({ nom: document.getElementById('e-nom').value, groupe: document.getElementById('e-groupe').value })
+      });
+      const updated = await apiFetch('/teams');
+      afficherEquipes(updated);
+      e.target.reset();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+
+  afficherStades(stadiums);
+  document.getElementById('form-stade').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('s-error');
+    errEl.textContent = '';
+    try {
+      await apiFetch('/stadiums', {
+        method: 'POST',
+        body: JSON.stringify({
+          nom: document.getElementById('s-nom').value,
+          ville: document.getElementById('s-ville').value,
+          capacite: document.getElementById('s-capacite').value
+        })
+      });
+      afficherStades(await apiFetch('/stadiums'));
+      e.target.reset();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+
+  afficherArbitres(referees);
+  document.getElementById('form-arbitre').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const errEl = document.getElementById('a-error');
+    errEl.textContent = '';
+    try {
+      await apiFetch('/referees', {
+        method: 'POST',
+        body: JSON.stringify({
+          nom: document.getElementById('a-nom').value,
+          nationalite: document.getElementById('a-nationalite').value
+        })
+      });
+      afficherArbitres(await apiFetch('/referees'));
+      e.target.reset();
+    } catch (err) { errEl.textContent = err.message; }
+  });
+
+  try {
+    const users = await apiFetch('/users');
+    document.getElementById('liste-utilisateurs').innerHTML = users.map(u => `
+      <div class="card"><div style="font-weight:700;">${u.nom}</div><div style="color:var(--gris); font-size:13px;">${u.email}</div><div class="group-tag" style="margin-top:8px;">${u.role}</div></div>
+    `).join('');
+  } catch (e) {}
+}
+
+function afficherEquipes(teams) {
+  document.getElementById('liste-equipes').innerHTML = teams.map(t => `
+    <div class="card team-card"><span class="group-tag">Groupe ${t.groupe}</span><span class="team-name">${t.nom}</span></div>
+  `).join('');
+}
+function afficherStades(stadiums) {
+  document.getElementById('liste-stades').innerHTML = stadiums.map(s => `
+    <div class="card"><div style="font-weight:700;">${s.nom}</div><div style="color:var(--gris); font-size:13px;">${s.ville} · ${s.capacite ? s.capacite.toLocaleString('fr-FR') + ' places' : ''}</div></div>
+  `).join('');
+}
+function afficherArbitres(referees) {
+  document.getElementById('liste-arbitres').innerHTML = referees.map(r => `
+    <div class="card"><div style="font-weight:700;">${r.nom}</div><div style="color:var(--gris); font-size:13px;">${r.nationalite || ''}</div></div>
+  `).join('');
+}
+</script>
+</body>
+</html>

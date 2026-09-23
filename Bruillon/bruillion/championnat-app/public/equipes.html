@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Équipes — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div class="section-title">
+    <h2>Les 48 équipes qualifiées</h2>
+    <span class="count" id="team-count"></span>
+  </div>
+
+  <div class="filters-bar">
+    <input type="text" id="recherche" placeholder="Rechercher une équipe…">
+    <select id="filtre-groupe">
+      <option value="">Tous les groupes</option>
+    </select>
+  </div>
+
+  <div class="grid grid-3" id="teams-grid">Chargement…</div>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('equipes.html');
+
+const groupes = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+document.getElementById('filtre-groupe').innerHTML += groupes.map(g => `<option value="${g}">Groupe ${g}</option>`).join('');
+
+let debounceTimer;
+async function chargerEquipes() {
+  const recherche = document.getElementById('recherche').value.trim();
+  const groupe = document.getElementById('filtre-groupe').value;
+  const params = new URLSearchParams();
+  if (recherche) params.set('recherche', recherche);
+  if (groupe) params.set('groupe', groupe);
+
+  const grid = document.getElementById('teams-grid');
+  try {
+    const teams = await apiFetch(`/teams?${params.toString()}`);
+    document.getElementById('team-count').textContent = `${teams.length} équipe(s)`;
+    grid.innerHTML = teams.length ? teams.map(t => `
+      <a class="card team-card" href="equipe.html?id=${t.id}">
+        <span class="group-tag">Groupe ${t.groupe}</span>
+        <span class="team-name">${t.nom}</span>
+        <span class="team-meta">Voir l'effectif →</span>
+      </a>
+    `).join('') : '<div class="card">Aucune équipe ne correspond à votre recherche.</div>';
+  } catch (e) {
+    grid.innerHTML = '<div class="card">Erreur de chargement des équipes.</div>';
+  }
+}
+
+document.getElementById('recherche').addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(chargerEquipes, 250);
+});
+document.getElementById('filtre-groupe').addEventListener('change', chargerEquipes);
+
+chargerEquipes();
+</script>
+</body>
+</html>

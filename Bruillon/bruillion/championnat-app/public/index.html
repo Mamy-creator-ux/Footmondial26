@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mondial 2026 — Plateforme de gestion du championnat</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <section class="hero">
+    <div class="eyebrow-free">Coupe du Monde FIFA 2026™ · 11 juin – 19 juillet</div>
+    <h1>Un outil pour piloter le championnat, du tirage au sifflet final.</h1>
+    <p>Équipes, joueurs, calendrier, résultats, classement automatique et statistiques du plus grand Mondial de l'histoire — 48 équipes, 12 groupes, 16 stades, au Canada, aux États-Unis et au Mexique.</p>
+    <div style="display:flex; gap:12px;">
+      <a href="equipes.html" class="btn btn-primary">Voir les équipes</a>
+      <a href="calendrier.html" class="btn btn-ghost">Consulter le calendrier</a>
+    </div>
+    <div class="hero-stats" id="hero-stats"></div>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>Prochains matchs</h2><a href="calendrier.html" style="color:var(--vert-vif); font-size:14px;">Calendrier complet →</a></div>
+    <div id="prochains-matchs">Chargement…</div>
+  </section>
+
+  <section style="margin-top:48px;">
+    <div class="section-title"><h2>Meilleur buteur</h2><a href="statistiques.html" style="color:var(--vert-vif); font-size:14px;">Statistiques →</a></div>
+    <div id="meilleur-buteur" class="card" style="max-width:420px;">Chargement…</div>
+  </section>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™ · Projet pédagogique, données publiques réelles.</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('index.html');
+
+async function chargerAccueil() {
+  try {
+    const stats = await apiFetch('/stats');
+    document.getElementById('hero-stats').innerHTML = `
+      <div><div class="stat-num">${stats.totalEquipes}</div><div class="stat-label">Équipes</div></div>
+      <div><div class="stat-num">${stats.totalJoueurs}</div><div class="stat-label">Joueurs</div></div>
+      <div><div class="stat-num">${stats.totalMatchsProgrammes}</div><div class="stat-label">Matchs programmés</div></div>
+      <div><div class="stat-num">${stats.totalButs}</div><div class="stat-label">Buts marqués</div></div>
+    `;
+
+    if (stats.meilleurButeur) {
+      const b = stats.meilleurButeur;
+      document.getElementById('meilleur-buteur').innerHTML = `
+        <div style="font-size:13px;color:var(--gris);">⚽ Meilleur buteur actuel</div>
+        <div style="font-size:22px;font-weight:800;margin:6px 0;">${b.nom}</div>
+        <div style="color:var(--gris);">${b.buts} but(s) inscrit(s)</div>
+      `;
+    } else {
+      document.getElementById('meilleur-buteur').innerHTML = `<div style="color:var(--gris);">Aucun but marqué pour le moment.</div>`;
+    }
+  } catch (e) {
+    document.getElementById('hero-stats').innerHTML = '';
+  }
+
+  try {
+    const matches = await apiFetch('/matches?statut=à venir');
+    const prochains = matches.slice(0, 4);
+    document.getElementById('prochains-matchs').innerHTML = prochains.length
+      ? prochains.map(renderMatchCard).join('')
+      : '<div class="card">Aucun match programmé pour le moment.</div>';
+  } catch (e) {
+    document.getElementById('prochains-matchs').innerHTML = '<div class="card">Impossible de charger les matchs.</div>';
+  }
+}
+
+function renderMatchCard(m) {
+  const statutClass = m.status === 'terminé' ? 'status-termine' : 'status-avenir';
+  const score = m.status === 'terminé'
+    ? `<span class="score">${m.scoreDomicile} - ${m.scoreExterieur}</span>`
+    : `<span style="color:var(--gris);">vs</span>`;
+  return `
+    <div class="match-card">
+      <div class="match-teams">
+        <span>${m.equipeDomicile?.nom || '?'}</span>
+        ${score}
+        <span>${m.equipeExterieur?.nom || '?'}</span>
+      </div>
+      <div>
+        <span class="status-pill ${statutClass}">${m.status}</span>
+        <div class="match-meta">${m.date} · ${m.heure}</div>
+      </div>
+    </div>`;
+}
+
+chargerAccueil();
+</script>
+</body>
+</html>

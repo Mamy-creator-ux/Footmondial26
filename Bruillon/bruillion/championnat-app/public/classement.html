@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classement — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div class="section-title"><h2>Classement automatique</h2></div>
+  <p style="color:var(--gris); max-width:640px; margin-top:-10px;">
+    Calculé en temps réel à partir des résultats saisis : victoire = 3 pts, nul = 1 pt, défaite = 0 pt.
+    Départage : différence de buts, puis buts marqués.
+  </p>
+
+  <div class="tabs" id="groupe-tabs"></div>
+
+  <div class="card">
+    <table class="standings" id="standings-table">
+      <thead>
+        <tr>
+          <th>#</th><th>Équipe</th><th>J</th><th>V</th><th>N</th><th>D</th>
+          <th>BP</th><th>BC</th><th>Diff</th><th>Pts</th>
+        </tr>
+      </thead>
+      <tbody id="standings-body"><tr><td colspan="10">Chargement…</td></tr></tbody>
+    </table>
+  </div>
+  <p style="color:var(--gris); font-size:13px; margin-top:14px;">Les deux premiers de chaque groupe (ligne surlignée) se qualifient pour les seizièmes de finale.</p>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('classement.html');
+const groupes = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+let groupeActif = 'A';
+
+document.getElementById('groupe-tabs').innerHTML = groupes.map(g =>
+  `<button data-groupe="${g}" class="${g === groupeActif ? 'active' : ''}">Groupe ${g}</button>`
+).join('');
+
+async function chargerClassement() {
+  const body = document.getElementById('standings-body');
+  body.innerHTML = '<tr><td colspan="10">Chargement…</td></tr>';
+  try {
+    const classement = await apiFetch(`/standings?groupe=${groupeActif}`);
+    body.innerHTML = classement.length ? classement.map((t, i) => `
+      <tr class="${i === 1 ? 'qualif-line' : ''}">
+        <td class="rang">${t.rang}</td>
+        <td>${t.nom}</td>
+        <td>${t.joues}</td><td>${t.victoires}</td><td>${t.nuls}</td><td>${t.defaites}</td>
+        <td>${t.buteMarques}</td><td>${t.butsEncaisses}</td><td>${t.diffButs > 0 ? '+' : ''}${t.diffButs}</td>
+        <td class="pts">${t.points}</td>
+      </tr>
+    `).join('') : '<tr><td colspan="10">Aucune équipe dans ce groupe.</td></tr>';
+  } catch (e) {
+    body.innerHTML = '<tr><td colspan="10">Erreur de chargement du classement.</td></tr>';
+  }
+}
+
+document.querySelectorAll('#groupe-tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#groupe-tabs button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    groupeActif = btn.dataset.groupe;
+    chargerClassement();
+  });
+});
+
+chargerClassement();
+</script>
+</body>
+</html>

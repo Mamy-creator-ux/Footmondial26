@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inscription — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page" style="max-width:480px;">
+  <div class="section-title"><h2>Créer un compte</h2></div>
+  <form class="form-panel" id="form-register">
+    <div><label>Nom complet</label><input type="text" id="nom" required></div>
+    <div><label>Adresse email</label><input type="email" id="email" required></div>
+    <div><label>Mot de passe</label><input type="password" id="motDePasse" minlength="6" required></div>
+    <div>
+      <label>Rôle souhaité</label>
+      <select id="role">
+        <option value="visiteur">Visiteur / supporter</option>
+        <option value="entraineur">Entraineur</option>
+        <option value="arbitre">Arbitre</option>
+      </select>
+    </div>
+    <div class="form-error" id="register-error"></div>
+    <button class="btn btn-primary" type="submit">Créer mon compte</button>
+  </form>
+  <p style="color:var(--gris); font-size:13px; margin-top:18px;">
+    Déjà inscrit ? <a href="connexion.html" style="color:var(--vert-vif);">Connectez-vous</a>.
+  </p>
+</main>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('');
+
+document.getElementById('form-register').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const errEl = document.getElementById('register-error');
+  errEl.textContent = '';
+  try {
+    const data = await apiFetch('/auth/register', {
+      method: 'POST',
+      body: JSON.stringify({
+        nom: document.getElementById('nom').value,
+        email: document.getElementById('email').value,
+        motDePasse: document.getElementById('motDePasse').value,
+        role: document.getElementById('role').value
+      })
+    });
+    localStorage.setItem('token', data.token);
+    localStorage.setItem('user', JSON.stringify(data.user));
+    window.location.href = 'index.html';
+  } catch (err) {
+    errEl.textContent = err.message;
+  }
+});
+</script>
+</body>
+</html>

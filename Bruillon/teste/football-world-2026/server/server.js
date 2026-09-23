@@ -1,0 +1,23 @@
+const express=require("express"), cors=require("cors"), path=require("path"), jwt=require("jsonwebtoken"), bcrypt=require("bcryptjs"), db=require("./db");
+const app=express(), PORT=process.env.PORT||3000, SECRET=process.env.JWT_SECRET||"football-world-2026-change-me";
+app.use(cors()); app.use(express.json()); app.use(express.static(path.join(__dirname,"..","public")));
+
+function auth(req,res,next){const h=req.headers.authorization||""; try{req.user=jwt.verify(h.replace("Bearer ",""),SECRET);next()}catch{res.status(401).json({error:"Authentification requise"})}}
+function admin(req,res,next){if(req.user?.role!=="admin") return res.status(403).json({error:"Accès administrateur requis"}); next()}
+
+app.post("/api/auth/register",async(req,res)=>{const {name,email,password}=req.body||{}; if(!name||!email||!password)return res.status(400).json({error:"Champs requis"}); try{const hash=await bcrypt.hash(password,10); const r=db.prepare("INSERT INTO users(name,email,password,role) VALUES(?,?,?,?)").run(name,email.toLowerCase(),hash,"user"); res.json({message:"Compte créé",id:r.lastInsertRowid})}catch(e){res.status(409).json({error:"Email déjà utilisé"})}});
+app.post("/api/auth/login",async(req,res)=>{const {email,password}=req.body||{},u=db.prepare("SELECT * FROM users WHERE email=?").get((email||"").toLowerCase()); if(!u||!(await bcrypt.compare(password||"",u.password)))return res.status(401).json({error:"Identifiants invalides"}); const token=jwt.sign({id:u.id,name:u.name,role:u.role},SECRET,{expiresIn:"7d"}); res.json({token,user:{id:u.id,name:u.name,email:u.email,role:u.role}})});
+
+app.get("/api/teams",(req,res)=>res.json(db.prepare("SELECT * FROM teams ORDER BY group_name,name").all()));
+app.get("/api/players",(req,res)=>res.json(db.prepare("SELECT p.*,t.name team FROM players p JOIN teams t ON t.id=p.team_id ORDER BY p.goals DESC,p.name").all()));
+app.get("/api/stadiums",(req,res)=>res.json(db.prepare("SELECT * FROM stadiums ORDER BY country,city").all()));
+app.get("/api/matches",(req,res)=>res.json(db.prepare(`SELECT m.*,h.name home_team,a.name away_team,s.name stadium FROM matches m JOIN teams h ON h.id=m.home_team_id JOIN teams a ON a.id=m.away_team_id LEFT JOIN stadiums s ON s.id=m.stadium_id ORDER BY m.match_date` ).all()));
+app.get("/api/standings",(req,res)=>{const teams=db.prepare("SELECT * FROM teams ORDER BY group_name,name").all(), out=teams.map(t=>({...t,played:0,wins:0,draws:0,losses:0,gf:0,ga:0,gd:0,points:0})); const map=Object.fromEntries(out.map(x=>[x.id,x])); db.prepare("SELECT * FROM matches WHERE status='finished'").all().forEach(m=>{let h=map[m.home_team_id],a=map[m.away_team_id]; if(!h||!a||m.home_score==null)return; h.played++;a.played++;h.gf+=m.home_score;h.ga+=m.away_score;a.gf+=m.away_score;a.ga+=m.home_score; if(m.home_score>m.away_score){h.wins++;h.points+=3;a.losses++}else if(m.home_score<m.away_score){a.wins++;a.points+=3;h.losses++}else{h.draws++;a.draws++;h.points++;a.points++}}); out.forEach(x=>x.gd=x.gf-x.ga); out.sort((a,b)=>b.points-a.points||b.gd-a.gd||b.gf-a.gf); res.json(out)});
+app.get("/api/stats",(req,res)=>{const top=db.prepare("SELECT p.name,p.position,p.goals,p.assists,p.yellow_cards,p.red_cards,t.name team FROM players p JOIN teams t ON t.id=p.team_id ORDER BY p.goals DESC,p.assists DESC LIMIT 20").all(); const totals=db.prepare("SELECT COUNT(*) matches, SUM(home_score+away_score) goals FROM matches WHERE status='finished'").get(); res.json({top,totals})});
+app.post("/api/matches",auth,admin,(req,res)=>{const {home_team_id,away_team_id,stadium_id,match_date,status="scheduled",home_score=null,away_score=null,stage="Group Stage"}=req.body; const r=db.prepare("INSERT INTO matches(home_team_id,away_team_id,stadium_id,match_date,status,home_score,away_score,stage) VALUES(?,?,?,?,?,?,?,?)").run(home_team_id,away_team_id,stadium_id,match_date,status,home_score,away_score,stage);res.json({id:r.lastInsertRowid})});
+app.put("/api/matches/:id",auth,admin,(req,res)=>{const {status,home_score,away_score}=req.body; db.prepare("UPDATE matches SET status=?,home_score=?,away_score=? WHERE id=?").run(status,home_score,away_score,req.params.id);res.json({ok:true})});
+app.get("/api/health",(req,res)=>res.json({ok:true,service:"Football World 2026 API"}));
+app.use((req, res) => {
+    res.sendFile(path.join(__dirname, "..", "public", "index.html"));
+});
+app.listen(PORT,()=>console.log(`Football World 2026: http://localhost:${PORT}`));

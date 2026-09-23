@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendrier — Mondial 2026</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" id="site-header"></header>
+
+<main class="page">
+  <div class="section-title"><h2>Calendrier des matchs</h2><span class="count" id="match-count"></span></div>
+
+  <div class="tabs" id="status-tabs">
+    <button data-statut="" class="active">Tous</button>
+    <button data-statut="à venir">À venir</button>
+    <button data-statut="terminé">Terminés</button>
+  </div>
+
+  <div class="filters-bar">
+    <select id="filtre-groupe"><option value="">Tous les groupes</option></select>
+    <select id="filtre-equipe"><option value="">Toutes les équipes</option></select>
+    <input type="date" id="filtre-date">
+  </div>
+
+  <div id="matches-list">Chargement…</div>
+</main>
+
+<footer>Plateforme de gestion — Coupe du Monde FIFA 2026™</footer>
+
+<script src="js/api.js"></script>
+<script>
+renderHeader('calendrier.html');
+
+const groupes = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+document.getElementById('filtre-groupe').innerHTML += groupes.map(g => `<option value="${g}">Groupe ${g}</option>`).join('');
+
+let statutActif = '';
+
+async function initEquipesFiltre() {
+  try {
+    const teams = await apiFetch('/teams');
+    document.getElementById('filtre-equipe').innerHTML += teams
+      .sort((a, b) => a.nom.localeCompare(b.nom))
+      .map(t => `<option value="${t.id}">${t.nom}</option>`).join('');
+  } catch (e) {}
+}
+
+async function chargerMatchs() {
+  const groupe = document.getElementById('filtre-groupe').value;
+  const equipeId = document.getElementById('filtre-equipe').value;
+  const date = document.getElementById('filtre-date').value;
+
+  const params = new URLSearchParams();
+  if (statutActif) params.set('statut', statutActif);
+  if (groupe) params.set('groupe', groupe);
+  if (equipeId) params.set('equipeId', equipeId);
+  if (date) params.set('date', date);
+
+  const list = document.getElementById('matches-list');
+  try {
+    const matches = await apiFetch(`/matches?${params.toString()}`);
+    document.getElementById('match-count').textContent = `${matches.length} match(s)`;
+    list.innerHTML = matches.length ? matches.map(renderMatch).join('') : '<div class="card">Aucun match ne correspond à ces filtres.</div>';
+  } catch (e) {
+    list.innerHTML = '<div class="card">Erreur de chargement du calendrier.</div>';
+  }
+}
+
+function renderMatch(m) {
+  const statutClass = m.status === 'terminé' ? 'status-termine' : 'status-avenir';
+  const score = m.status === 'terminé'
+    ? `<span class="score">${m.scoreDomicile} - ${m.scoreExterieur}</span>`
+    : `<span style="color:var(--gris);">vs</span>`;
+  return `
+    <a class="match-card" href="match.html?id=${m.id}" style="display:flex;">
+      <div class="match-teams">
+        <span>${m.equipeDomicile?.nom || '?'}</span>
+        ${score}
+        <span>${m.equipeExterieur?.nom || '?'}</span>
+      </div>
+      <div>
+        <span class="status-pill ${statutClass}">${m.status}</span>
+        <div class="match-meta">${m.phase}<br>${m.date} · ${m.heure}</div>
+      </div>
+    </a>`;
+}
+
+document.querySelectorAll('#status-tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#status-tabs button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    statutActif = btn.dataset.statut;
+    chargerMatchs();
+  });
+});
+['filtre-groupe', 'filtre-equipe', 'filtre-date'].forEach(id =>
+  document.getElementById(id).addEventListener('change', chargerMatchs)
+);
+
+initEquipesFiltre();
+chargerMatchs();
+</script>
+</body>
+</html>

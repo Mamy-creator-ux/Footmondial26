@@ -1,0 +1,6344 @@
+{
+  "users": [
+    {
+      "id": "23349cc3-a551-46da-a41a-a52755abeb7e",
+      "nom": "Administrateur FIFA",
+      "email": "admin@championnat2026.com",
+      "motDePasse": "$2a$10$CdtmdawepAs2mQw3IeKEnuFMQ4hfzy7kP2FKh9d/uS6LQ6.rKdl0e",
+      "role": "admin",
+      "creeLe": "2026-09-16T08:50:52.211Z"
+    },
+    {
+      "id": "fba7a6cd-f058-4ce3-9001-ca8354f98488",
+      "nom": "Visiteur Test",
+      "email": "visiteur@championnat2026.com",
+      "motDePasse": "$2a$10$CdtmdawepAs2mQw3IeKEnuFMQ4hfzy7kP2FKh9d/uS6LQ6.rKdl0e",
+      "role": "visiteur",
+      "creeLe": "2026-09-16T08:50:52.213Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "nom": "Mexique",
+      "groupe": "A",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "nom": "Afrique du Sud",
+      "groupe": "A",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "nom": "Corée du Sud",
+      "groupe": "A",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "nom": "République tchèque",
+      "groupe": "A",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "nom": "Canada",
+      "groupe": "B",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "nom": "Bosnie-Herzégovine",
+      "groupe": "B",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "nom": "Qatar",
+      "groupe": "B",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "nom": "Suisse",
+      "groupe": "B",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "nom": "Brésil",
+      "groupe": "C",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "nom": "Maroc",
+      "groupe": "C",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "512e8583-783f-4e14-b979-1b93014035d4",
+      "nom": "Haïti",
+      "groupe": "C",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "nom": "Écosse",
+      "groupe": "C",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "nom": "États-Unis",
+      "groupe": "D",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "nom": "Paraguay",
+      "groupe": "D",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "nom": "Australie",
+      "groupe": "D",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "nom": "Turquie",
+      "groupe": "D",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "nom": "Allemagne",
+      "groupe": "E",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "nom": "Curaçao",
+      "groupe": "E",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "nom": "Côte d'Ivoire",
+      "groupe": "E",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "nom": "Équateur",
+      "groupe": "E",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "nom": "Pays-Bas",
+      "groupe": "F",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "nom": "Japon",
+      "groupe": "F",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "nom": "Suède",
+      "groupe": "F",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "nom": "Tunisie",
+      "groupe": "F",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "nom": "Belgique",
+      "groupe": "G",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "nom": "Égypte",
+      "groupe": "G",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "nom": "Iran",
+      "groupe": "G",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "nom": "Nouvelle-Zélande",
+      "groupe": "G",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "nom": "Espagne",
+      "groupe": "H",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "nom": "Cap-Vert",
+      "groupe": "H",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "nom": "Arabie saoudite",
+      "groupe": "H",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "nom": "Uruguay",
+      "groupe": "H",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "nom": "France",
+      "groupe": "I",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "nom": "Sénégal",
+      "groupe": "I",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "nom": "Irak",
+      "groupe": "I",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "nom": "Norvège",
+      "groupe": "I",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "nom": "Argentine",
+      "groupe": "J",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "nom": "Algérie",
+      "groupe": "J",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "nom": "Autriche",
+      "groupe": "J",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "nom": "Jordanie",
+      "groupe": "J",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "nom": "Portugal",
+      "groupe": "K",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "nom": "Ouzbékistan",
+      "groupe": "K",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "nom": "Colombie",
+      "groupe": "K",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "nom": "RD Congo",
+      "groupe": "K",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "nom": "Angleterre",
+      "groupe": "L",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "nom": "Croatie",
+      "groupe": "L",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "nom": "Ghana",
+      "groupe": "L",
+      "drapeau": "",
+      "confederation": ""
+    },
+    {
+      "id": "4646504c-4566-4d55-a940-aabea048f35b",
+      "nom": "Panama",
+      "groupe": "L",
+      "drapeau": "",
+      "confederation": ""
+    }
+  ],
+  "players": [
+    {
+      "id": "fddda180-9cc0-4742-b778-c56d6d23d267",
+      "nom": "Santiago Giménez",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Attaquant",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "71ac092d-c03d-49f2-b46f-96262abdc779",
+      "nom": "Joueur MEX-2",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "55c7f008-d18e-40ac-885f-be413accf7e9",
+      "nom": "Joueur MEX-3",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "08330cf5-cb5f-45ac-82a2-76c4da06f2d7",
+      "nom": "Joueur MEX-4",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "c556af76-994e-4236-a76f-e1b26bf606f5",
+      "nom": "Joueur MEX-5",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "502bbf5c-b220-4b3a-a7a5-2ef802c4b749",
+      "nom": "Joueur MEX-6",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "b069848d-957a-46fd-a553-e98be15724c3",
+      "nom": "Joueur MEX-7",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "0a8fd4a8-32c0-4fa9-9843-e518e38172ad",
+      "nom": "Joueur MEX-8",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "a6e31804-953d-4679-98a7-1f574337a445",
+      "nom": "Joueur MEX-9",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "3b65438b-6c60-422c-b102-39c506264da6",
+      "nom": "Joueur MEX-10",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "748c810b-1c15-4ca3-90f4-1bbb8dc3aaec",
+      "nom": "Joueur MEX-11",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "0143026c-7307-4992-b274-6fee04ce6ecc",
+      "nom": "Joueur MEX-12",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "0fe1e1fd-3e45-4058-bed0-3e741ff057d9",
+      "nom": "Joueur MEX-13",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "8235475b-1943-44de-a17a-4576e0359cac",
+      "nom": "Joueur MEX-14",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "bc2d96e6-78ba-4362-910d-0b3eda2b346a",
+      "nom": "Joueur MEX-15",
+      "equipeId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "a3b64e01-bc53-4834-a795-42303f7bc8a4",
+      "nom": "Joueur AFR-1",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "e9859f00-15aa-428d-9063-8cd313b60b66",
+      "nom": "Joueur AFR-2",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "ef60f75f-7720-42f1-847d-c103844a50ed",
+      "nom": "Joueur AFR-3",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "710e868d-f726-4051-8ecf-199239146471",
+      "nom": "Joueur AFR-4",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "9a3360cb-efc3-4914-bc35-2a5d117f3959",
+      "nom": "Joueur AFR-5",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "9c35c8f0-0b67-461e-b040-932a9024f260",
+      "nom": "Joueur AFR-6",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "acd93d92-743e-4512-a114-ae607c79dab9",
+      "nom": "Joueur AFR-7",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "043b41fd-1587-480d-96be-45bf2dcd001f",
+      "nom": "Joueur AFR-8",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "39cbcbf8-9936-4ce6-b73a-c1e7d8135746",
+      "nom": "Joueur AFR-9",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "207a2329-9ecf-4541-a220-ad5b294cfe7c",
+      "nom": "Joueur AFR-10",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "0ee59856-1f38-4fea-a552-f65129126623",
+      "nom": "Joueur AFR-11",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "f90d790e-06e5-463d-b3ea-f54cf28e1357",
+      "nom": "Joueur AFR-12",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "fd774429-f629-439e-bacd-274d8e728e5a",
+      "nom": "Joueur AFR-13",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "9513a176-7327-40d9-8290-3b2652cfb682",
+      "nom": "Joueur AFR-14",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "69d575cb-f5e8-4b9d-a870-9d68209aece8",
+      "nom": "Joueur AFR-15",
+      "equipeId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "16f8a953-3c92-48e1-8893-cbb7f86837f3",
+      "nom": "Joueur COR-1",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "5596a2f6-f75c-4c63-affb-437dab7220b6",
+      "nom": "Joueur COR-2",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "995f3f06-24c2-418f-a828-12f1101baf83",
+      "nom": "Joueur COR-3",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "bef71a54-398b-4a6a-8a95-67164434109e",
+      "nom": "Joueur COR-4",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "8aaa6108-12ef-4db9-a386-345c039576b3",
+      "nom": "Joueur COR-5",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "bdaf8f6c-2c68-45df-b0c2-b88fc6e74e17",
+      "nom": "Joueur COR-6",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "42cc8a51-4805-4657-92d1-e10dc2a3e05b",
+      "nom": "Joueur COR-7",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "c2533647-da14-46c7-86b5-a87f9ee8248d",
+      "nom": "Joueur COR-8",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "6a1197ed-b5ce-4c3a-b943-4ffc3abe3f0d",
+      "nom": "Joueur COR-9",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "fc7efb80-f0bb-4f07-ab99-c889ba2aaa33",
+      "nom": "Joueur COR-10",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "cbe425aa-c7fd-4c13-b245-b63f4939dddc",
+      "nom": "Joueur COR-11",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "a0cd24b6-1a6e-41c3-ad9d-14f93abb7028",
+      "nom": "Joueur COR-12",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "1cf10011-1b3b-4dd2-8ada-c5d17238263d",
+      "nom": "Joueur COR-13",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "72a3ece7-a5b0-4c36-adf7-12d0925008d1",
+      "nom": "Joueur COR-14",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "dacd060b-c22c-4485-a83e-850a480f32e9",
+      "nom": "Joueur COR-15",
+      "equipeId": "9cddba72-3dc0-48d1-9301-a98197f2bfc0",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "b18d523e-9c4d-49a3-9919-16c3daafec1b",
+      "nom": "Joueur RÉP-1",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "905438a8-adcc-4a37-9598-44667e436405",
+      "nom": "Joueur RÉP-2",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "c4c80342-a749-4872-8373-11ded17f4b70",
+      "nom": "Joueur RÉP-3",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "49d9b765-c489-472d-8098-33b352decaa6",
+      "nom": "Joueur RÉP-4",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "9a5cea50-339e-44d4-99c3-15bb7276dd07",
+      "nom": "Joueur RÉP-5",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "6382277c-1df1-4c8f-a0cc-cdda5a246c28",
+      "nom": "Joueur RÉP-6",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "1b3aa6b8-ed53-4c8e-90e1-6e9c053ed30d",
+      "nom": "Joueur RÉP-7",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "a5cec205-0086-45bd-82a3-e4f5da80226d",
+      "nom": "Joueur RÉP-8",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "e802833c-3b66-4601-91af-51517efaa26e",
+      "nom": "Joueur RÉP-9",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "a01f72f2-0be8-4deb-84f1-3464088c5335",
+      "nom": "Joueur RÉP-10",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "8c581d20-67f3-426d-8dca-6c99f6b0a6c4",
+      "nom": "Joueur RÉP-11",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "9d249ee1-5f39-4459-8d8e-a7a22de8123a",
+      "nom": "Joueur RÉP-12",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "092151f7-d12d-4ead-a697-ce0c1210dbaa",
+      "nom": "Joueur RÉP-13",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "37bbf0db-7eca-4eea-8e42-5dae340fa62d",
+      "nom": "Joueur RÉP-14",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "019a3738-4660-457f-be37-9f557f09a316",
+      "nom": "Joueur RÉP-15",
+      "equipeId": "3b552bcc-abbd-46b5-b1ad-12ed6ce22a16",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "1068260e-16a2-4d24-9298-11689475d529",
+      "nom": "Alphonso Davies",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Défenseur",
+      "numero": 19,
+      "dateNaissance": null
+    },
+    {
+      "id": "1e370565-4d3d-47b4-b40b-dbc7939c9f32",
+      "nom": "Joueur CAN-2",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "ae641874-5dce-4c3e-8e50-9237062c4a2b",
+      "nom": "Joueur CAN-3",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "a764640b-e1ef-4d83-847b-8db951249f13",
+      "nom": "Joueur CAN-4",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "2e4c64e4-fe7c-499f-9dd9-4a95ca13d2e9",
+      "nom": "Joueur CAN-5",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "3eed09a7-26bf-4769-8a4c-a3a04d341435",
+      "nom": "Joueur CAN-6",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "c28bb484-b0c6-4b5a-8eb4-bed72c5f2394",
+      "nom": "Joueur CAN-7",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "5f205dd6-909e-401c-aeeb-8fe7216c5311",
+      "nom": "Joueur CAN-8",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "4553430d-278a-4fa1-959d-f418dcbb0687",
+      "nom": "Joueur CAN-9",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "ca785a0e-8a6a-4a8b-bf69-fc1240bdaad6",
+      "nom": "Joueur CAN-10",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "4c0afb13-9aab-4b49-8abb-3cfb071d689b",
+      "nom": "Joueur CAN-11",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "f84d7bd1-84fe-40ce-96f5-0970504deb27",
+      "nom": "Joueur CAN-12",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "922931c8-044f-4dbe-860a-38d34c3e38ef",
+      "nom": "Joueur CAN-13",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "6dfc762a-7989-42be-80d1-1ad7a181b090",
+      "nom": "Joueur CAN-14",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "8bf65c0e-caab-4929-b92e-95998aa2ebe9",
+      "nom": "Joueur CAN-15",
+      "equipeId": "b4c5296b-940d-49ac-8df6-1d2b4d287cd2",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "d90ecf19-713e-491d-9a58-19bd0b155947",
+      "nom": "Joueur BOS-1",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "6125e803-9d38-4348-a5c5-0f45824814fe",
+      "nom": "Joueur BOS-2",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "3ea7697f-673d-40fb-875d-cde4c0851d69",
+      "nom": "Joueur BOS-3",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "b88147a7-9949-4ce9-842e-958d90ce3ab6",
+      "nom": "Joueur BOS-4",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "8e3cfc43-f3e1-4389-9c37-13de9660b487",
+      "nom": "Joueur BOS-5",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "c17d415a-6d7b-40c2-bec6-2cbe2f96e25a",
+      "nom": "Joueur BOS-6",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "b7aae572-ba69-4d9c-b0de-1119d7aa4109",
+      "nom": "Joueur BOS-7",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "01099522-3554-4f99-b476-d73f8d0b2684",
+      "nom": "Joueur BOS-8",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "e56463be-efac-4397-b280-7bcd55aae95b",
+      "nom": "Joueur BOS-9",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "928a2e73-b0d1-433a-bf40-36ab89c51f68",
+      "nom": "Joueur BOS-10",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "16ed7bfb-89d9-445c-bb1a-79e44f564342",
+      "nom": "Joueur BOS-11",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "4121869c-33c8-434f-b903-0ffc99a6ce4f",
+      "nom": "Joueur BOS-12",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "cdc842fd-d60c-4e6b-9ebc-53f911651aad",
+      "nom": "Joueur BOS-13",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a10b5450-50e3-4f43-9972-63f7e6461052",
+      "nom": "Joueur BOS-14",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "d2890084-2fa8-4c5d-a60a-3618148945e8",
+      "nom": "Joueur BOS-15",
+      "equipeId": "e69db803-b10b-49c6-94d8-11219870cbf6",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "183db1d9-993a-474b-b589-e378d501a5f8",
+      "nom": "Joueur QAT-1",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "eba5a50c-aaef-4b42-ac6f-388473b7a2df",
+      "nom": "Joueur QAT-2",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "d58f3b95-037f-45c5-b4e9-bc2f1ecfb994",
+      "nom": "Joueur QAT-3",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "81db497a-d5f1-4d4d-a554-7c32976b1492",
+      "nom": "Joueur QAT-4",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "4ae9ecf8-4caa-4019-849e-ec053ac5607a",
+      "nom": "Joueur QAT-5",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "dd84e9f1-d43a-4175-b198-3b99d63c7abb",
+      "nom": "Joueur QAT-6",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "fd21a029-b3b1-4826-a7f7-9ac0fbb8a08f",
+      "nom": "Joueur QAT-7",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "e799eefb-be26-49d5-89fa-8705def9cfc8",
+      "nom": "Joueur QAT-8",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "3942e28d-bc29-4c4e-a51f-435242539318",
+      "nom": "Joueur QAT-9",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "a4fad24f-fe2d-4c48-8993-b01583d827c9",
+      "nom": "Joueur QAT-10",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "964903b3-75b6-4e3c-97ba-a69a7aea1029",
+      "nom": "Joueur QAT-11",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "d2c4e787-48f7-4211-9614-a63e87f7567d",
+      "nom": "Joueur QAT-12",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "603647a6-0635-46bf-b087-82f93c9b3b39",
+      "nom": "Joueur QAT-13",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "83f23970-0fdd-431a-9f3a-e3946a12ea7b",
+      "nom": "Joueur QAT-14",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "32469269-8a6a-446c-9abd-10795f1259f8",
+      "nom": "Joueur QAT-15",
+      "equipeId": "f1bb6bdd-1182-4911-b3e3-5a1ac1b9e449",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "dd4dbe01-cdad-47fa-8699-1c7dc7242179",
+      "nom": "Joueur SUI-1",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "eac4b2d6-d987-445d-a3c6-4bb2bba73a4b",
+      "nom": "Joueur SUI-2",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "69ce23a1-9a28-4156-a767-048d43fa66a1",
+      "nom": "Joueur SUI-3",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "0f7d4182-7bc6-4dec-98dc-d13219fbf744",
+      "nom": "Joueur SUI-4",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "c85d8313-4230-431b-babf-6dd78d5b51d0",
+      "nom": "Joueur SUI-5",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "46ae0b14-64ea-41d2-b19a-ce8517832fe5",
+      "nom": "Joueur SUI-6",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "824efd2a-729f-444a-aded-d4d4ba76ebb3",
+      "nom": "Joueur SUI-7",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "02a5eee0-fb60-4271-b653-1896caf42ec9",
+      "nom": "Joueur SUI-8",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "9045fb4b-184d-4589-998b-8666947a2968",
+      "nom": "Joueur SUI-9",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "74f30b4f-e33c-4fa0-aa65-893467e914c9",
+      "nom": "Joueur SUI-10",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "733baf0b-af10-4a07-8845-b77c4dd63ce1",
+      "nom": "Joueur SUI-11",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "0a7670d1-a3ae-4c84-854f-c801e69f946e",
+      "nom": "Joueur SUI-12",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "c24ad600-d68c-4375-b378-a25fa3860d9f",
+      "nom": "Joueur SUI-13",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "ea1db416-302c-4efd-af17-59f3ce92f34a",
+      "nom": "Joueur SUI-14",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "535787b2-f145-4156-9a65-e85a233fcad8",
+      "nom": "Joueur SUI-15",
+      "equipeId": "c9fb77f2-d85c-4663-8907-361514e86e54",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "b4a52d10-8e47-470b-bb72-72533079aad9",
+      "nom": "Vinícius Júnior",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Attaquant",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "58cdc29f-55c2-4194-a9dc-0dcccd89fce1",
+      "nom": "Rodrygo",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Attaquant",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "93d9c069-6dcf-4650-97d4-65e72a273860",
+      "nom": "Joueur BRÉ-3",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "26a40dfc-58d0-4622-9f2f-ae0d2eaf4e66",
+      "nom": "Joueur BRÉ-4",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "969d9549-aea8-467d-8545-71dcb0c127d8",
+      "nom": "Joueur BRÉ-5",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "461179ce-42f9-45b9-bcb5-45aa742ef678",
+      "nom": "Joueur BRÉ-6",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "6ee44caf-f4d1-4bff-9c4d-fbcd8aabf75a",
+      "nom": "Joueur BRÉ-7",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "65f171ab-f6e3-4e74-a51d-75f9d3ce36de",
+      "nom": "Joueur BRÉ-8",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "77443ec5-551f-403d-8e89-b8e0afc12cb3",
+      "nom": "Joueur BRÉ-9",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "f01bff33-98be-4fdc-a47b-e8b8fabbff1a",
+      "nom": "Joueur BRÉ-10",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "a8605d33-a6a1-4438-b2a8-ff79aa44a8db",
+      "nom": "Joueur BRÉ-11",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "21cb0dcb-3c9f-45a9-8a60-80a52230a238",
+      "nom": "Joueur BRÉ-12",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "9e628052-e781-4504-8524-1b36c4eee466",
+      "nom": "Joueur BRÉ-13",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "05bca812-59f1-466b-9040-9fdd9f8f9498",
+      "nom": "Joueur BRÉ-14",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "bf5b5b3f-c972-41fa-9890-8d9032a3cfb9",
+      "nom": "Joueur BRÉ-15",
+      "equipeId": "fb0b5e1c-6372-4c1c-97eb-e65b2fb95778",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "674c4fc7-ce25-41e3-b081-7d91ef9d8432",
+      "nom": "Achraf Hakimi",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "218e5611-7b82-40a8-9950-bae69ec72032",
+      "nom": "Joueur MAR-2",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "934d2292-c150-49df-b4a8-cf365dc2db68",
+      "nom": "Joueur MAR-3",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "dcf3d7ff-686a-4f6b-b8c3-a4c830f46cff",
+      "nom": "Joueur MAR-4",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d208c32-386b-4bd7-b7f6-1f0ef64164a3",
+      "nom": "Joueur MAR-5",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "96f11e5f-587b-48aa-8592-8034056018d3",
+      "nom": "Joueur MAR-6",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "3bcbf835-3641-4c44-a327-1b6573595f55",
+      "nom": "Joueur MAR-7",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "127111a5-01ba-4020-8975-c77e8c3fa89d",
+      "nom": "Joueur MAR-8",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "88ca8765-96b3-4d6e-bdc6-48045cd724fa",
+      "nom": "Joueur MAR-9",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "6c5631b5-0551-46ff-bab5-eda4e6fcdbb5",
+      "nom": "Joueur MAR-10",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "47039102-5870-43e3-b935-30e45f0c8f0e",
+      "nom": "Joueur MAR-11",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "0e279fc0-e2c4-4fcc-bbf1-c6246f23db98",
+      "nom": "Joueur MAR-12",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "e74ed98c-29e2-4f1e-98a7-a81cfcb0d60d",
+      "nom": "Joueur MAR-13",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a16198a2-84f8-42ce-be86-9347b800bfe3",
+      "nom": "Joueur MAR-14",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "249bbf2f-60e3-4a8a-a9ae-35d6cf261a03",
+      "nom": "Joueur MAR-15",
+      "equipeId": "4f830095-5158-45bb-873e-35c80a2231a3",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "e0a096fd-2a6d-4f6c-936a-f6d233d9d8b6",
+      "nom": "Joueur HAÏ-1",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "16b545e3-4c34-4448-9814-19eebe15f737",
+      "nom": "Joueur HAÏ-2",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "eda67a13-fb52-42b8-aa95-49c65f96be52",
+      "nom": "Joueur HAÏ-3",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "5c028bf0-08b5-4e2e-8553-f9c798f80aa6",
+      "nom": "Joueur HAÏ-4",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "5cb1b1d5-af72-4a33-84f8-7979d1a6e3c6",
+      "nom": "Joueur HAÏ-5",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "7a93df5b-ede9-42fb-a627-cf72bdb987d1",
+      "nom": "Joueur HAÏ-6",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "76f6f236-196e-4546-a82e-ee73e59dbf47",
+      "nom": "Joueur HAÏ-7",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "9409cdb8-b4d4-4c07-afa4-193b2092b428",
+      "nom": "Joueur HAÏ-8",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "e36aec12-71ec-4438-b16d-d1ead5cb73fd",
+      "nom": "Joueur HAÏ-9",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "19e34437-db31-4f3f-b908-c8cf76ed61b2",
+      "nom": "Joueur HAÏ-10",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "921f33a5-fd32-4c09-9b42-92b4dafd1682",
+      "nom": "Joueur HAÏ-11",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "8372d55e-f2f3-416f-aefe-10665e596f80",
+      "nom": "Joueur HAÏ-12",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "6f09254b-396c-49e4-91e6-d8c59271aa97",
+      "nom": "Joueur HAÏ-13",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "6b655602-576c-4cd8-b5c4-2ef4eef7349a",
+      "nom": "Joueur HAÏ-14",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "ad45884a-771e-438b-8c6c-54db0afe6066",
+      "nom": "Joueur HAÏ-15",
+      "equipeId": "512e8583-783f-4e14-b979-1b93014035d4",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "8492df17-4ae7-447a-9005-1d8dae9b2a68",
+      "nom": "Joueur ÉCO-1",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "2be4cfd0-ab45-48e8-a053-be2d8310dbc5",
+      "nom": "Joueur ÉCO-2",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "634e9a0c-8e46-4cf6-ae2b-cc875b6ac062",
+      "nom": "Joueur ÉCO-3",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "388022bb-26ee-428e-a4df-122d6fb68bdb",
+      "nom": "Joueur ÉCO-4",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "b9690eb9-d584-4bc9-8aa0-3d29fe6a46ac",
+      "nom": "Joueur ÉCO-5",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "6a9025a7-6d3b-4618-8cc4-fda6e746b607",
+      "nom": "Joueur ÉCO-6",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "17bf0f7e-ed13-47ea-98b6-6a74b559b7d0",
+      "nom": "Joueur ÉCO-7",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "e2612b2e-c5cc-4f14-8e3d-4c4849035150",
+      "nom": "Joueur ÉCO-8",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "f2fee0e3-82ee-405a-a07f-f5e50a87b975",
+      "nom": "Joueur ÉCO-9",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "1778b9c7-0a28-4767-bd0e-e6814d27fbfd",
+      "nom": "Joueur ÉCO-10",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "577c5ec3-d978-4313-9988-b91dde54d60f",
+      "nom": "Joueur ÉCO-11",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "03c4c3a4-b59c-498c-bcc9-0b11f3c29049",
+      "nom": "Joueur ÉCO-12",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "fbf2e88d-ea33-4d90-b4d2-cc88848fab1b",
+      "nom": "Joueur ÉCO-13",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "ac573dd3-d52a-4456-96f1-831f0c1ea9ac",
+      "nom": "Joueur ÉCO-14",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "f39807e2-1ed4-49c5-8223-5cf5f355938c",
+      "nom": "Joueur ÉCO-15",
+      "equipeId": "9ecda319-c1af-48c2-bc17-31e6a93e6870",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "09758257-4673-4779-8938-4b57758c7d49",
+      "nom": "Christian Pulisic",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Attaquant",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "1ef4210b-0310-45a9-a663-49b780ecc67e",
+      "nom": "Joueur ÉTA-2",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "6cfcf0b7-0c1e-4583-adf4-ddb94b5f825f",
+      "nom": "Joueur ÉTA-3",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "89be1ee0-8485-471e-adad-bb96a01ba689",
+      "nom": "Joueur ÉTA-4",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "e198afda-09c4-4f6f-8078-73510bdfb183",
+      "nom": "Joueur ÉTA-5",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "5ccdaed0-44d6-4e21-a86f-ac28a2456c76",
+      "nom": "Joueur ÉTA-6",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "ab0dcd18-58d1-45a1-8e67-0918c7fdafc0",
+      "nom": "Joueur ÉTA-7",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "0a6ba210-914d-40fc-8622-c6451d115c79",
+      "nom": "Joueur ÉTA-8",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "837b9846-2731-49f7-9ab6-3e18d30d2de4",
+      "nom": "Joueur ÉTA-9",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "71de25f9-dd48-4fa9-9c94-2e4bdccb4fa0",
+      "nom": "Joueur ÉTA-10",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "a742563f-f299-4a49-9865-44379dd30b8f",
+      "nom": "Joueur ÉTA-11",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "49e5ee78-ca7e-427a-993c-0b4375e86185",
+      "nom": "Joueur ÉTA-12",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "2edda697-8443-4b40-b2e7-5d05301cae3c",
+      "nom": "Joueur ÉTA-13",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "3be9808e-d1aa-493d-ad5d-7fc2ae93db7b",
+      "nom": "Joueur ÉTA-14",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "3d1c0070-18c0-4b1c-9c71-5f314e50391f",
+      "nom": "Joueur ÉTA-15",
+      "equipeId": "0c2b5e71-06f3-4607-9ece-5a0d3cf7c800",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "501ac80d-e559-4961-a7d6-5dd98561e42e",
+      "nom": "Joueur PAR-1",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "0a7d02f8-8a0a-41fb-9cdd-7238300cd3ed",
+      "nom": "Joueur PAR-2",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "32f65d99-3861-4487-8891-d35eab978adb",
+      "nom": "Joueur PAR-3",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "578807bf-e70f-4a1c-9bf8-b9414eca9d36",
+      "nom": "Joueur PAR-4",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "f73b5224-6fa9-43f8-860a-74dccc449d93",
+      "nom": "Joueur PAR-5",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "108c786d-039e-4f8c-9a85-03eb7cb3ec46",
+      "nom": "Joueur PAR-6",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "029b9529-5757-42b3-a83c-27e3b34835f0",
+      "nom": "Joueur PAR-7",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "5dcd8444-f7b3-4fd2-b33e-c211441e3954",
+      "nom": "Joueur PAR-8",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "f0d20f58-8d78-4bf4-91c1-d49e8f058fa4",
+      "nom": "Joueur PAR-9",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "105020d0-82d1-411c-8ee3-3cd542d35e6e",
+      "nom": "Joueur PAR-10",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "1cd05651-6f25-44ec-836b-bd86d1820bf8",
+      "nom": "Joueur PAR-11",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "72dc117b-cc7a-41d6-a86b-1c618012a854",
+      "nom": "Joueur PAR-12",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "04f474da-701a-4a23-ad9e-457cdef43fb7",
+      "nom": "Joueur PAR-13",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "1a03afe0-e9fd-41cf-bda2-751ec75fae52",
+      "nom": "Joueur PAR-14",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "38b31026-c853-42f4-9d2b-f54dbad8c2e3",
+      "nom": "Joueur PAR-15",
+      "equipeId": "74f5874a-0f6a-4f05-a01b-01675e28ca1f",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "aabcd312-db35-4701-8130-f5b56576b168",
+      "nom": "Joueur AUS-1",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "ff5dfb78-0b5b-4ad3-8757-acd1c4f2290b",
+      "nom": "Joueur AUS-2",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d895316-33ac-4cad-9123-25ade8576156",
+      "nom": "Joueur AUS-3",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "43159a95-c1e5-4ef4-aa2b-75bb745049cf",
+      "nom": "Joueur AUS-4",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "57290fe1-050e-4100-af62-0f566a8ba4b8",
+      "nom": "Joueur AUS-5",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "c2bd53ef-9d10-4e24-a4a5-742d2528e2ef",
+      "nom": "Joueur AUS-6",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "349229f3-9c15-4594-b26f-4aad1f47d902",
+      "nom": "Joueur AUS-7",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "525bb52b-0a10-40a6-8d28-ceb342442a92",
+      "nom": "Joueur AUS-8",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "c02d8671-ddd2-42e5-9d3d-6afb1328a046",
+      "nom": "Joueur AUS-9",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "4afd097a-0449-456d-a8d1-e926c02eef42",
+      "nom": "Joueur AUS-10",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "58b88a80-691a-40f2-b372-7b1133785092",
+      "nom": "Joueur AUS-11",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "57638268-38df-46cc-8e2e-0f4d8b8d5567",
+      "nom": "Joueur AUS-12",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "d8ddab50-b2e4-4ab1-9131-7c68970b3d75",
+      "nom": "Joueur AUS-13",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "4c180dab-21c8-4725-8151-289efbd0460f",
+      "nom": "Joueur AUS-14",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "c6d87df4-cdc0-426b-93e5-ee424ccc5312",
+      "nom": "Joueur AUS-15",
+      "equipeId": "d315dd87-c426-47bf-9c02-5065ed29e072",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "c7512fed-4b96-484a-893a-12639504eb21",
+      "nom": "Joueur TUR-1",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "fe1c616d-f6bc-4b38-b983-6c2b2e18a97f",
+      "nom": "Joueur TUR-2",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d1d4647-67f0-4b70-9cda-eb539ecdc3f9",
+      "nom": "Joueur TUR-3",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "9c69b878-1a97-4672-87e3-2ac8b60c7e97",
+      "nom": "Joueur TUR-4",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "02427380-252a-421f-970e-779d50bc1ad8",
+      "nom": "Joueur TUR-5",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "4d213b6d-69ba-4627-8b84-6c9c88617fcd",
+      "nom": "Joueur TUR-6",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "1dd0e56a-f32f-414f-80be-670041f62be3",
+      "nom": "Joueur TUR-7",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "6cbdd81c-9357-4163-8abc-eaabb2c56944",
+      "nom": "Joueur TUR-8",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "a9998c84-0b81-4447-9502-a1eb0c6b650a",
+      "nom": "Joueur TUR-9",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "b888d260-a0bb-4108-b1cb-a70ca8bfb0a3",
+      "nom": "Joueur TUR-10",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "a96993b3-da67-4616-aacc-1115c57c1849",
+      "nom": "Joueur TUR-11",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "0182492e-f17b-4a3f-aebc-47a5fdfef21d",
+      "nom": "Joueur TUR-12",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "e8bedbca-7c2c-4b1f-8af7-916178ac0ac4",
+      "nom": "Joueur TUR-13",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "72245197-2e5c-47bc-bcbe-6bc0e326e46a",
+      "nom": "Joueur TUR-14",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "f547f038-39c4-48ae-9705-e43a872fea7d",
+      "nom": "Joueur TUR-15",
+      "equipeId": "36c95d14-85af-4c1d-9a58-2c3fec02388e",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "1e423db4-296d-480f-aee1-e3d813ca56c8",
+      "nom": "Jamal Musiala",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Milieu",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "82175c0e-4624-4b17-b7a8-accd7ef69418",
+      "nom": "Joueur ALL-2",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "16454064-6b49-4258-8b8a-ad8f3ee5e111",
+      "nom": "Joueur ALL-3",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "e17a45a2-71e4-40da-a54f-d50694c91298",
+      "nom": "Joueur ALL-4",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "e934cd33-92ec-4551-b2b0-d8dd87dc4fc8",
+      "nom": "Joueur ALL-5",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d729658d-6a45-4312-9004-cbd630ba2e5f",
+      "nom": "Joueur ALL-6",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "64f44001-dc48-42d3-b0a1-ef51ade23867",
+      "nom": "Joueur ALL-7",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "4de88c68-3dcf-4164-b0ae-2d7c9fbc8f95",
+      "nom": "Joueur ALL-8",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "90324eda-9553-4c95-8620-4ddaa0dbaf33",
+      "nom": "Joueur ALL-9",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "5fc2d491-58cf-496c-bd9a-33393beba6ed",
+      "nom": "Joueur ALL-10",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "4623b9a7-7cea-47b7-ad5c-3edafd53e502",
+      "nom": "Joueur ALL-11",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "3bad5059-3929-48bb-b8f1-fd3c5ab843a4",
+      "nom": "Joueur ALL-12",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "42d2811c-a7d2-49ad-b178-ac26c9f34103",
+      "nom": "Joueur ALL-13",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "1480f576-67bb-42f2-b802-bb8fac3a2675",
+      "nom": "Joueur ALL-14",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "030d7fc6-d834-4040-881c-47fbf2e32b1b",
+      "nom": "Joueur ALL-15",
+      "equipeId": "897ad3a5-1c8f-4a73-b555-de8a454652df",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "402dfcc6-ce05-4f91-929d-fceae4987e5f",
+      "nom": "Joueur CUR-1",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "189c4c40-8113-43db-aadd-303252435e09",
+      "nom": "Joueur CUR-2",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "9ee3a996-77dc-4ca3-8293-478670b9d999",
+      "nom": "Joueur CUR-3",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "5a14562f-2d5b-4611-9793-fff05397f651",
+      "nom": "Joueur CUR-4",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "cd91258a-298b-440e-aa58-2b51517208cd",
+      "nom": "Joueur CUR-5",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "c34d3d61-ca9a-46db-ba6f-af1dfa96b211",
+      "nom": "Joueur CUR-6",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "14c6f09c-8a52-4219-a546-4342fe2d953a",
+      "nom": "Joueur CUR-7",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "c1fb5035-4b01-41c0-a26c-be5553ca8410",
+      "nom": "Joueur CUR-8",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "0318bde2-8259-4ccc-9cbc-d241edf2b528",
+      "nom": "Joueur CUR-9",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "d8f4f25b-48e5-492f-b9a0-0cf9bfb0c036",
+      "nom": "Joueur CUR-10",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "c75c27c6-906d-46ba-ab29-eb3dfcf37bbc",
+      "nom": "Joueur CUR-11",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "2bdf51e2-ead0-4637-8d4c-c9580ab412fd",
+      "nom": "Joueur CUR-12",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "35330679-0e91-42da-9693-49bcd2f4decd",
+      "nom": "Joueur CUR-13",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "ea86ce98-a077-4f9a-a603-b3d9654ef3f5",
+      "nom": "Joueur CUR-14",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "8c352f19-dfcd-41eb-a412-b4e14c45fe12",
+      "nom": "Joueur CUR-15",
+      "equipeId": "23e3ab41-d931-44b8-9832-6ca649c423ab",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "838d88e7-bf09-4c56-b0e1-485e18cc1e0f",
+      "nom": "Joueur CÔT-1",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "8cf4b9ed-649c-4416-a5ab-7237c336a3df",
+      "nom": "Joueur CÔT-2",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "cd0922dc-27d3-4678-9314-a3656aae9584",
+      "nom": "Joueur CÔT-3",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "eedeef53-ea41-4947-9a05-236c61e08d23",
+      "nom": "Joueur CÔT-4",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "fb01fb5d-edb6-4100-a94a-212a932995d3",
+      "nom": "Joueur CÔT-5",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "b820a15d-c40a-4c50-b1a9-95741b42b65a",
+      "nom": "Joueur CÔT-6",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "8f7a1164-7ea2-4248-bae0-b20c66041ce0",
+      "nom": "Joueur CÔT-7",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "2e37c6a8-a028-48ca-9058-c0eed8cb16df",
+      "nom": "Joueur CÔT-8",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "410e4dd1-fb0f-4b20-a339-e7497c2ca5e4",
+      "nom": "Joueur CÔT-9",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "5e6ecb5b-3f1b-4f69-8f03-df3826a710a2",
+      "nom": "Joueur CÔT-10",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "d3ef29f4-3742-4e1b-8b29-ea817996ec03",
+      "nom": "Joueur CÔT-11",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "6dac334b-c786-4ce3-b401-f181fb0baddd",
+      "nom": "Joueur CÔT-12",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "23266883-41db-49db-825e-c1533eca9f54",
+      "nom": "Joueur CÔT-13",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "c9c91185-2288-4b51-82f2-451acf6613ef",
+      "nom": "Joueur CÔT-14",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "e4329523-5bb4-4eab-95c3-9ae453f7ba56",
+      "nom": "Joueur CÔT-15",
+      "equipeId": "f91013d3-7c95-4cf1-94e2-946cb7fafbad",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "8eda6d91-e0f7-4b67-b296-aa1c764521a0",
+      "nom": "Joueur ÉQU-1",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "704af0c5-e84f-40aa-9dbf-10ac2ede4704",
+      "nom": "Joueur ÉQU-2",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "48829271-d663-44c4-8d8e-feda8124b6a6",
+      "nom": "Joueur ÉQU-3",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "3c24516e-6442-48b4-a318-2273e1b7a0b3",
+      "nom": "Joueur ÉQU-4",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "581d9293-7a19-4ff9-9f9b-e2117353d0bb",
+      "nom": "Joueur ÉQU-5",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "78e86c2d-0f17-4e99-8ae5-9821ee6d40fd",
+      "nom": "Joueur ÉQU-6",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "5afefc55-2c25-4776-8829-e44e6a30fd78",
+      "nom": "Joueur ÉQU-7",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "f70fae75-fd92-48cd-9e82-fc07a77f3610",
+      "nom": "Joueur ÉQU-8",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "fbbb8ba3-0ab3-4ccd-9914-a89c1c51729f",
+      "nom": "Joueur ÉQU-9",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "b597cddd-5f68-4333-b9bd-d6a92dfa6d55",
+      "nom": "Joueur ÉQU-10",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "e3cf2e78-b1c6-47c1-9467-7f9a810fa59c",
+      "nom": "Joueur ÉQU-11",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "5790c03e-1fbc-484d-ac21-e1cefe32779f",
+      "nom": "Joueur ÉQU-12",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "69b97a4c-2759-4adb-9d52-c403323de01a",
+      "nom": "Joueur ÉQU-13",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "050d40f6-2a2f-45e3-80f6-6176aa03d90f",
+      "nom": "Joueur ÉQU-14",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "bd72af71-839f-4568-83e2-8a0d685a9539",
+      "nom": "Joueur ÉQU-15",
+      "equipeId": "2626639d-9312-4bfa-881b-74eae5595a9d",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "d3379414-31b1-4068-8f9e-8a8ec0a63077",
+      "nom": "Cody Gakpo",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Attaquant",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "afa4378a-77b0-434e-bfca-462b517ff471",
+      "nom": "Joueur PAY-2",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "59966949-96f1-4e49-81ca-809813b5f680",
+      "nom": "Joueur PAY-3",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "3589a475-ed5a-45c2-a0c8-297390b02cf1",
+      "nom": "Joueur PAY-4",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "acc859e1-f357-4e52-85ee-3e494945236d",
+      "nom": "Joueur PAY-5",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "4e9d5249-e5ed-4b07-b4fb-ebe17ca66ecd",
+      "nom": "Joueur PAY-6",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "79cb6b59-3368-4240-9106-3de4e19681f4",
+      "nom": "Joueur PAY-7",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "1a843f2a-3dc4-4727-b64e-69a599c6a813",
+      "nom": "Joueur PAY-8",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "4e6e2e6a-a820-468c-88aa-0101efda7504",
+      "nom": "Joueur PAY-9",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "ae0bd5ee-510c-4b9f-944b-13afeb6c3582",
+      "nom": "Joueur PAY-10",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "8b81aaee-8bc3-4e46-a8f7-865a72d5f6ea",
+      "nom": "Joueur PAY-11",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "163c8164-3c55-4c76-93f6-63e2e3b17621",
+      "nom": "Joueur PAY-12",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "44919f5c-1208-419c-97d2-4183f72ee283",
+      "nom": "Joueur PAY-13",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "6702313a-d588-4bbb-830d-63f79b5d5e71",
+      "nom": "Joueur PAY-14",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "4f76167c-d881-4000-b4d7-650bff23f99d",
+      "nom": "Joueur PAY-15",
+      "equipeId": "eaaaffd6-ba81-4022-9b2d-4b0256417db3",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "0a36a94b-1a28-4875-83de-7514f3284126",
+      "nom": "Joueur JAP-1",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "7896bb87-48d2-48e4-b34b-aa6d91664e0b",
+      "nom": "Joueur JAP-2",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "740fd57e-7c1a-47f2-af46-80997f8f8213",
+      "nom": "Joueur JAP-3",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "79b32757-b3e9-4319-b853-88fdbff09e6e",
+      "nom": "Joueur JAP-4",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "a3aeb03b-ce73-41c8-8422-7c0997975e99",
+      "nom": "Joueur JAP-5",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "a70e242b-2979-48b9-a1a1-ff140d3a031f",
+      "nom": "Joueur JAP-6",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "a38b9898-f6ca-4f1b-9bd6-3fb2b9569abb",
+      "nom": "Joueur JAP-7",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "9205f1bc-4ab1-4d11-9b90-2ba71767e727",
+      "nom": "Joueur JAP-8",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "e2761827-8baf-4b82-931b-10c1d68d7db3",
+      "nom": "Joueur JAP-9",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "6fbd3d40-393f-4db3-b12a-d5b02e8a1431",
+      "nom": "Joueur JAP-10",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "d7d8d1cd-d8ef-4361-8ed2-fbdf65d37cb3",
+      "nom": "Joueur JAP-11",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "dfed5265-eb0c-40a6-a0b4-a4acc85501d2",
+      "nom": "Joueur JAP-12",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "a8ed20c1-e5ff-467d-b22f-33ab34b93906",
+      "nom": "Joueur JAP-13",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "73e01807-ee7e-47b9-939a-d1a1aa8eb0b2",
+      "nom": "Joueur JAP-14",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "188f985d-0ef6-4bed-817d-ba4ee21395d2",
+      "nom": "Joueur JAP-15",
+      "equipeId": "a6155c09-0a2e-481f-89c3-dcf711a3bd02",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "edf07405-e383-4377-9500-40aa50836d3b",
+      "nom": "Joueur SUÈ-1",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ad15596-8542-4588-a863-b7ddb9ab72a0",
+      "nom": "Joueur SUÈ-2",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "224f7976-b72a-496b-8f40-c6abbf48cb98",
+      "nom": "Joueur SUÈ-3",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "4e542207-a549-48dd-a962-bfbd422b8d48",
+      "nom": "Joueur SUÈ-4",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "e583ad8b-7606-4df5-ace8-56e1cc6d50a4",
+      "nom": "Joueur SUÈ-5",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d6db211c-b3a0-4aeb-8eac-0ff3ec65aece",
+      "nom": "Joueur SUÈ-6",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "f6f5aab6-f039-475c-a227-317ce0d85349",
+      "nom": "Joueur SUÈ-7",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "dea4e40b-eb06-48ef-971c-108423a882dd",
+      "nom": "Joueur SUÈ-8",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "58620863-bea3-43d3-8af6-a80465e4d8f8",
+      "nom": "Joueur SUÈ-9",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "560d6c0f-6ff3-4396-86c1-34de2968d6e9",
+      "nom": "Joueur SUÈ-10",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "4baaa88a-6ee2-4cfd-b32f-5f239620defc",
+      "nom": "Joueur SUÈ-11",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "1e494795-549e-47ca-9e93-ab48326d0c2f",
+      "nom": "Joueur SUÈ-12",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "eecdbc0e-591f-4d5e-93b8-fdc0b6f6d58a",
+      "nom": "Joueur SUÈ-13",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "52af5bce-89c5-492c-9478-2f3c10b0d850",
+      "nom": "Joueur SUÈ-14",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "2b8ef689-9530-4860-ad63-40cf9d2f6fee",
+      "nom": "Joueur SUÈ-15",
+      "equipeId": "086883f1-d46e-4824-a148-39bd10255bf7",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "8020419a-b829-4b9e-a7ab-a5e5100c8383",
+      "nom": "Joueur TUN-1",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "1e6dd686-70e8-40bf-bc90-b789a336c573",
+      "nom": "Joueur TUN-2",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "d06748f1-7abf-4bcc-9f9c-6ea70137ade8",
+      "nom": "Joueur TUN-3",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "472bb5e8-f578-4a30-b877-79244fc69d09",
+      "nom": "Joueur TUN-4",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "16b9f295-dc44-4dbe-b77f-db032f9ebff1",
+      "nom": "Joueur TUN-5",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "08ef72cc-c7c9-4c89-a9d0-415d66212048",
+      "nom": "Joueur TUN-6",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "d542a5a1-af22-49b3-93f6-d7df27c382dc",
+      "nom": "Joueur TUN-7",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "ae006759-ce8b-4706-9cb2-f2f437820b0e",
+      "nom": "Joueur TUN-8",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "a45e6fd2-810c-40e4-b86e-b66449cd92b3",
+      "nom": "Joueur TUN-9",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "00c0a08a-a273-450b-8bcf-e4a142a7cd4a",
+      "nom": "Joueur TUN-10",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "d79416b1-8591-4332-b7da-283830a81387",
+      "nom": "Joueur TUN-11",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "3bcfe795-6879-497e-a208-61440c0c7747",
+      "nom": "Joueur TUN-12",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "c85db92f-8d50-42f4-8ef2-f46607f20cfb",
+      "nom": "Joueur TUN-13",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "340482ce-8420-4252-b3d8-a2bcfdb3f951",
+      "nom": "Joueur TUN-14",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "3d92c80b-e9b9-4720-be15-d8d63da9ead3",
+      "nom": "Joueur TUN-15",
+      "equipeId": "65ac538d-040c-4c77-ba3e-d058f57673d2",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "f303806e-9cdd-4719-be8d-581de5fa58d8",
+      "nom": "Kevin De Bruyne",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "e8dd1118-d5df-4cd0-a2ce-1b44161730d4",
+      "nom": "Joueur BEL-2",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "2cde26f4-5a41-4dd9-b9f6-4f7a59515947",
+      "nom": "Joueur BEL-3",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "f97b08e5-3083-4b54-a270-2e57c75c8795",
+      "nom": "Joueur BEL-4",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "7401908f-4f3a-4d29-8b46-f3f772dd18ea",
+      "nom": "Joueur BEL-5",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "5311d2af-2ac2-43f4-8d3e-548d2a067ed9",
+      "nom": "Joueur BEL-6",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "e096da30-16cd-462f-ba4a-852369c197be",
+      "nom": "Joueur BEL-7",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "d5017c4d-c0d0-4fbc-98cf-664e36522be3",
+      "nom": "Joueur BEL-8",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ea22e91-1063-4747-93fb-07751c470168",
+      "nom": "Joueur BEL-9",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "e2b647f5-cfb5-40a4-89b8-04412198f3b9",
+      "nom": "Joueur BEL-10",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "55ddc41f-cb8d-46e2-abce-769f212a0297",
+      "nom": "Joueur BEL-11",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "cead0fc9-ac50-468e-9f01-1b22b393aa48",
+      "nom": "Joueur BEL-12",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "95d0a577-18c7-4c08-a459-7ea6f17843db",
+      "nom": "Joueur BEL-13",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "fa2aec4d-172c-4858-86ea-853234ce6561",
+      "nom": "Joueur BEL-14",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "dcba58f1-a679-4a67-b2a7-256c5ac0217b",
+      "nom": "Joueur BEL-15",
+      "equipeId": "c854458e-e932-4350-ae01-0063d5f222ec",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "b4b70c91-fa72-42e8-942d-b474bbc1fab5",
+      "nom": "Joueur ÉGY-1",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "7315f062-8e75-4873-adb6-2ab4716360cc",
+      "nom": "Joueur ÉGY-2",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "a7864a98-3849-486e-8799-defc280450b7",
+      "nom": "Joueur ÉGY-3",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "3c6aa9d6-0200-42c7-b638-383540fa4c5d",
+      "nom": "Joueur ÉGY-4",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "1a16a948-9933-40c4-a2b1-b9285b9223ea",
+      "nom": "Joueur ÉGY-5",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "e9a2b022-8de2-4d35-bffa-0f0d58e3cba1",
+      "nom": "Joueur ÉGY-6",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "8fe903ca-e6c2-448c-b178-3b9b6df49c44",
+      "nom": "Joueur ÉGY-7",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "1c1b46cb-778f-4a5a-b105-da6175bfc4cb",
+      "nom": "Joueur ÉGY-8",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "60d94682-c486-4e6a-8853-3979d59279cf",
+      "nom": "Joueur ÉGY-9",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "29210c28-5669-41aa-beba-0c2147c7f468",
+      "nom": "Joueur ÉGY-10",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "00bdf4fc-a6b6-4839-a8b9-87d763a2aa26",
+      "nom": "Joueur ÉGY-11",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "9f27d9f0-5759-43f6-b6a3-dadc16f0443e",
+      "nom": "Joueur ÉGY-12",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "3e52bead-0858-4906-a17e-4d7b8bc20a42",
+      "nom": "Joueur ÉGY-13",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ebca344-000a-4fd0-a5b1-1f652f09aca6",
+      "nom": "Joueur ÉGY-14",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "e15ba170-3c17-4d7b-bf9a-8dd3909342f2",
+      "nom": "Joueur ÉGY-15",
+      "equipeId": "782c5d36-6604-4359-bb42-51e100da3a42",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "9ecd5478-d5ee-4c6c-9868-27a999851bc1",
+      "nom": "Joueur IRA-1",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ce2859d-6e8f-489c-9e5c-7b8f18d2f821",
+      "nom": "Joueur IRA-2",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "4b4c3da1-ba49-43cf-9deb-f2e4c3540b5f",
+      "nom": "Joueur IRA-3",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "7b6eda45-3995-437f-90bd-60de7428c0ac",
+      "nom": "Joueur IRA-4",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "cec4d9b3-04f6-49f9-a598-40c8a9b53210",
+      "nom": "Joueur IRA-5",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "7f31257a-8c3e-4b3a-8974-20f44b91c0a0",
+      "nom": "Joueur IRA-6",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "2f62fdc4-2b8f-4ca6-8655-8e8bc696eb36",
+      "nom": "Joueur IRA-7",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "22c0e259-e4ac-4df3-aac5-af6d0e1c6b45",
+      "nom": "Joueur IRA-8",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "56f2f0cd-9007-4463-a626-6f3645d0814b",
+      "nom": "Joueur IRA-9",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "081fedfb-0f2e-483f-be77-a5d29ed8050a",
+      "nom": "Joueur IRA-10",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "799fc4af-73c8-46aa-aaaa-c54f9e3274ad",
+      "nom": "Joueur IRA-11",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "6fb4ce84-a09b-4e07-819f-b7ae7c375244",
+      "nom": "Joueur IRA-12",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "e3426dc2-f2e4-41cb-b970-6b1efc1a5084",
+      "nom": "Joueur IRA-13",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "e7d0651b-b00e-4ada-99d5-ebde60645e3f",
+      "nom": "Joueur IRA-14",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "a7d28f68-94e6-4bb6-a845-e315d4419bf0",
+      "nom": "Joueur IRA-15",
+      "equipeId": "f0d1440b-1bd9-4dc5-b47b-4f9f15bacde6",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "7604cbb9-4591-4e70-b06a-172141d719d9",
+      "nom": "Joueur NOU-1",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "306d9287-8e72-47f3-a39d-1583a26409cd",
+      "nom": "Joueur NOU-2",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "65578505-a0cb-4f6d-ba45-6d57c6027c11",
+      "nom": "Joueur NOU-3",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "d6a34c82-03f3-47ff-a800-d0e74f25f19d",
+      "nom": "Joueur NOU-4",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "936e4d5c-f205-4896-ad8c-8dd08ab9dd6d",
+      "nom": "Joueur NOU-5",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "9063d6fc-350f-4323-8ca7-641dd40aec9a",
+      "nom": "Joueur NOU-6",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "767c3f39-cf62-4c0e-a4fb-2e36a031641d",
+      "nom": "Joueur NOU-7",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "0bde4df6-4a0c-4e33-b162-a26646648c8d",
+      "nom": "Joueur NOU-8",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "40cc7648-05ba-47e1-b544-b4138432f4e0",
+      "nom": "Joueur NOU-9",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "d7cdfc53-3eca-49ed-b1cc-09a800aae6c5",
+      "nom": "Joueur NOU-10",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "f097448c-9299-4cf8-b08b-ac815ff2410d",
+      "nom": "Joueur NOU-11",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ac126c2-40c0-42a1-bbd5-0a8d7398e136",
+      "nom": "Joueur NOU-12",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "fa0d5207-7ded-4adf-bfa1-63b59712bcf0",
+      "nom": "Joueur NOU-13",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "68b99e71-d786-4480-bb0a-5e9cd4ca0cb4",
+      "nom": "Joueur NOU-14",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "01bb85c2-04b7-4b31-bc3e-ffd4dbc98004",
+      "nom": "Joueur NOU-15",
+      "equipeId": "6d87ca50-e9a8-4211-b0e3-78ca6c543e88",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "66cf31a3-ea48-4407-b842-e51559dfcb10",
+      "nom": "Lamine Yamal",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Attaquant",
+      "numero": 19,
+      "dateNaissance": null
+    },
+    {
+      "id": "04b3a312-8eb9-491f-af5f-2615def82788",
+      "nom": "Joueur ESP-2",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "f5c2abcd-c73a-47fd-b0d6-518e07876341",
+      "nom": "Joueur ESP-3",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "572cc6a0-11b6-423a-80c0-1cea0f374b51",
+      "nom": "Joueur ESP-4",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "71658b55-8d7d-4648-be6b-ccc0bf0b202d",
+      "nom": "Joueur ESP-5",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "99ec4f62-c8e2-493b-bd41-c2fecdfb0574",
+      "nom": "Joueur ESP-6",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "fa346299-2096-46dc-b44e-77dc709d5d13",
+      "nom": "Joueur ESP-7",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "6198a9eb-45e6-4c15-93f5-f49b7644c809",
+      "nom": "Joueur ESP-8",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "f840b884-428a-45aa-8e1f-994ffddf8d9a",
+      "nom": "Joueur ESP-9",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "86d9be9e-8585-4ae1-b9d6-d51e0256759c",
+      "nom": "Joueur ESP-10",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "38c64d26-f70f-4c22-871a-b5640de5f8f6",
+      "nom": "Joueur ESP-11",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "5895743a-96a1-42be-bf9f-192c31646e33",
+      "nom": "Joueur ESP-12",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "509632a7-f087-42ae-b53b-2292089c8cc0",
+      "nom": "Joueur ESP-13",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "8abb7b78-9737-49d2-a10f-c245376b6709",
+      "nom": "Joueur ESP-14",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "27b67776-8a90-4e59-a5ff-2e55183b6401",
+      "nom": "Joueur ESP-15",
+      "equipeId": "05699977-e41b-4bb7-8385-235b2bce60fa",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "8176a5ab-69c2-4f39-91af-fdbb659c406f",
+      "nom": "Joueur CAP-1",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "a1d6f1f1-d75d-4630-b806-001deca22bfd",
+      "nom": "Joueur CAP-2",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "19dfa5c7-fc87-4373-b552-b9f6fe81b7ca",
+      "nom": "Joueur CAP-3",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "4bb12319-b6f3-4f6e-bc46-5ca41b54b2da",
+      "nom": "Joueur CAP-4",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "e3172364-992b-493b-a915-3e1140a4d379",
+      "nom": "Joueur CAP-5",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "46ab0d39-41a8-4d79-8450-d744bcb77cdd",
+      "nom": "Joueur CAP-6",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "890b9269-440c-4c4f-a0c3-b0835d49d60a",
+      "nom": "Joueur CAP-7",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "5b0e4b43-f361-4205-9a0c-03cfbfb191ac",
+      "nom": "Joueur CAP-8",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "5284893f-3a43-46cb-a8d3-1617f1999da2",
+      "nom": "Joueur CAP-9",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "d952e2ec-2f5a-4ec1-a0c7-7c225afed2eb",
+      "nom": "Joueur CAP-10",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "67e2298d-f10d-4b2d-a159-aeae53a31d36",
+      "nom": "Joueur CAP-11",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "c664a2eb-4fc1-479d-907e-c8617b65bc10",
+      "nom": "Joueur CAP-12",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "23836668-f53a-46e8-9384-ec8ed19ad229",
+      "nom": "Joueur CAP-13",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "362731fd-5268-49cb-8f8e-8e146f55647e",
+      "nom": "Joueur CAP-14",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "c8b15dd5-bed5-4bde-aeb7-bde2bb4db915",
+      "nom": "Joueur CAP-15",
+      "equipeId": "c63d80c0-e9b5-4a56-b366-6571823f0f7c",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "323fd6eb-1dbe-40f4-85f9-7dfee3bae1bc",
+      "nom": "Joueur ARA-1",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "e39756a8-201d-437b-82ff-6c740c4b19f2",
+      "nom": "Joueur ARA-2",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "d974d96d-e382-4632-b3fb-351d52ef031b",
+      "nom": "Joueur ARA-3",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "f6e349f5-8159-4430-a23d-dfe5ee54d871",
+      "nom": "Joueur ARA-4",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "6e0bdc29-6b2c-4f98-86c4-212301cd39b4",
+      "nom": "Joueur ARA-5",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d872a5b2-1c37-4fb7-b190-d7323195868a",
+      "nom": "Joueur ARA-6",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "59a442e9-fb50-400c-9fb4-c4e2d3bdc909",
+      "nom": "Joueur ARA-7",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "566290f1-becf-461b-b0e7-fd602280a8a0",
+      "nom": "Joueur ARA-8",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "9b60565c-89cc-45d0-b3df-cb5f3e058fd1",
+      "nom": "Joueur ARA-9",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "713d9c10-614b-4ade-ab11-096b9d3f457f",
+      "nom": "Joueur ARA-10",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "f4260437-7a40-4197-b2fb-4d5309e94242",
+      "nom": "Joueur ARA-11",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "60045362-93c1-485c-b5c7-53404a159714",
+      "nom": "Joueur ARA-12",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "b181adad-9c15-4a32-8d1b-79bd2dbba7bb",
+      "nom": "Joueur ARA-13",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a7d407a9-2b36-4c5f-b6c6-1bef381a75c2",
+      "nom": "Joueur ARA-14",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "e9b83fa0-3a27-46b9-8597-6d3878d05233",
+      "nom": "Joueur ARA-15",
+      "equipeId": "f3fb4330-19f9-4cc9-9af0-8f5198cc6547",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "556954a9-b8f2-49bf-a64c-c2e017a99d4b",
+      "nom": "Joueur URU-1",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "b19ed38c-712f-40f8-a809-0221240628c5",
+      "nom": "Joueur URU-2",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "0e0abd47-3f1d-4d38-ac9b-22812efcef8f",
+      "nom": "Joueur URU-3",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "1d06d730-ebb8-491d-8aad-de6f098a9b86",
+      "nom": "Joueur URU-4",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "41b0a21e-72fd-4061-a224-9c3eced5df51",
+      "nom": "Joueur URU-5",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "21a563a0-9ed8-4bbf-9d79-7cea00efeae2",
+      "nom": "Joueur URU-6",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "3abd148b-6efb-42d7-ac6f-2700ec1a36c8",
+      "nom": "Joueur URU-7",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "3a650c95-95b5-4bbc-a946-5632a0df4bf0",
+      "nom": "Joueur URU-8",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "0f1b30bb-ee51-4559-b161-d65b45211fb6",
+      "nom": "Joueur URU-9",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "cecb0c89-1b22-4a32-863f-4cc94e81e6ec",
+      "nom": "Joueur URU-10",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "96a42155-2f22-44cf-8f40-948051e2c23c",
+      "nom": "Joueur URU-11",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "f2014c10-ebf7-4a94-a9df-d0fbce2ca377",
+      "nom": "Joueur URU-12",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "2add9c7a-e8a6-42f9-ae2c-2066f5ed14a6",
+      "nom": "Joueur URU-13",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "fd8df8b4-06b7-46c2-9cd1-0c7839afbd34",
+      "nom": "Joueur URU-14",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "7260b27d-96eb-46e6-88b0-2c5ff29041bd",
+      "nom": "Joueur URU-15",
+      "equipeId": "82e36815-381e-4aa7-97a3-bbcebc0f4f11",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "c456a67c-2cf4-4dd7-8ba8-738920cc55da",
+      "nom": "Kylian Mbappé",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Attaquant",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "4414a159-338d-4e93-8f38-d5285d4b6993",
+      "nom": "Ousmane Dembélé",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Attaquant",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "a9a2a4a8-4a66-4374-b15c-7b27b1eec0ec",
+      "nom": "Aurélien Tchouaméni",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Milieu",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "a63b6826-6191-4113-9c66-567e11780ed1",
+      "nom": "Joueur FRA-4",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "85c066fb-38d2-4bcb-bdbe-76e64d6977a7",
+      "nom": "Joueur FRA-5",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "3f1e3c0c-a78b-4666-81b6-3b039a935f19",
+      "nom": "Joueur FRA-6",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "c919039b-26ce-4249-a728-d39f8ad91609",
+      "nom": "Joueur FRA-7",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d0b3b6d-85ad-450a-a53c-0f21c170764c",
+      "nom": "Joueur FRA-8",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "88a9c844-4541-41b1-9e80-cdea80a43954",
+      "nom": "Joueur FRA-9",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "529088dd-699c-4437-8845-20e15555cdfe",
+      "nom": "Joueur FRA-10",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "a5c819c5-5285-4f85-9f79-3c70ac39cd95",
+      "nom": "Joueur FRA-11",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "355225ca-cfa7-4540-9ba1-30e429ab2413",
+      "nom": "Joueur FRA-12",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "00f69ff2-325f-4562-b186-065fc1ad549c",
+      "nom": "Joueur FRA-13",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "d34dd54e-bc5b-41eb-9ec8-9fc81085c01d",
+      "nom": "Joueur FRA-14",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "1f629db7-6ffa-47bb-b29d-f6309c76bd20",
+      "nom": "Joueur FRA-15",
+      "equipeId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "3c8c9257-715f-4bc1-958f-9be0d31ac9cb",
+      "nom": "Sadio Mané",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Attaquant",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "7da21ec6-d770-4554-ba70-5bc8c9218c93",
+      "nom": "Kalidou Koulibaly",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Défenseur",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "bb393a9c-346d-489f-b61a-bcbadbe085bf",
+      "nom": "Joueur SÉN-3",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "1ab17757-e3f8-4c92-a371-e613181fb264",
+      "nom": "Joueur SÉN-4",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "66a6fce8-a67b-4de8-9dc1-fea9ca1f9ad5",
+      "nom": "Joueur SÉN-5",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d4269e0f-76e6-4b1d-a7db-d767b1246cd2",
+      "nom": "Joueur SÉN-6",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "31d52905-03e4-4f96-9d69-d67274cf68f1",
+      "nom": "Joueur SÉN-7",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "b5b998e8-c01d-4db8-914f-f3695ab61f46",
+      "nom": "Joueur SÉN-8",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "6b3dff0c-e760-4419-9be0-a440dfd3ed0f",
+      "nom": "Joueur SÉN-9",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "22044c2b-3803-43cf-ae19-0adbad15ab97",
+      "nom": "Joueur SÉN-10",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "1b841716-9a26-40a4-a385-2a0154e09f9e",
+      "nom": "Joueur SÉN-11",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "a88c52e0-b117-4222-b0ae-43375299fabe",
+      "nom": "Joueur SÉN-12",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "893fc530-00e3-44ff-bd63-da18f00466e9",
+      "nom": "Joueur SÉN-13",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "0f8f6b54-cdfd-4822-8477-3bb025634295",
+      "nom": "Joueur SÉN-14",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "2b84d6eb-d28b-4167-8bd4-578f5b6650dd",
+      "nom": "Joueur SÉN-15",
+      "equipeId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "d58c8eb5-8c1e-4fb3-b1c2-eba3b75c8bad",
+      "nom": "Aymen Hussein",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Attaquant",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "88d1a879-8332-4c0c-86bd-9f8b8aaf4c03",
+      "nom": "Joueur IRA-2",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "7130ec01-9d72-47c1-8e85-1130bb60a3ac",
+      "nom": "Joueur IRA-3",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "0cb18211-bcc1-4a62-8f02-a62eb95bbaba",
+      "nom": "Joueur IRA-4",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "5cce0cd1-4a8e-4420-bbcf-b001dda419ce",
+      "nom": "Joueur IRA-5",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "ed349fd8-2cb9-4e57-93c3-8670cbdafe3c",
+      "nom": "Joueur IRA-6",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "f9a40c1f-f56d-45b8-9317-6837549c7be3",
+      "nom": "Joueur IRA-7",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "1e19be44-4a78-44ae-8ab9-d0e3a4888d75",
+      "nom": "Joueur IRA-8",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "926486cb-d608-45e7-8600-d92e86cb5340",
+      "nom": "Joueur IRA-9",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "b64119ed-a06f-4c96-bd8c-35a4ee17c94c",
+      "nom": "Joueur IRA-10",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "27229ca5-041c-4db9-8afe-c934171bc357",
+      "nom": "Joueur IRA-11",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "e3d27352-8dcc-41a2-aa6a-99942e6e2759",
+      "nom": "Joueur IRA-12",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "9f0ca36d-b707-47f2-8097-442fd30a24bf",
+      "nom": "Joueur IRA-13",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a18b5db8-900e-454f-94bb-a1a0b9b74a88",
+      "nom": "Joueur IRA-14",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "c1aa505b-237e-4cd6-84c6-4b7fd483c3b7",
+      "nom": "Joueur IRA-15",
+      "equipeId": "257ee0e1-93df-4e3f-9e57-edcd9256ad5b",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "fe22c381-7b98-4a5e-b271-667a2c0a5c02",
+      "nom": "Erling Haaland",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Attaquant",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "de9cdc83-9a0e-4a6e-8695-07319edb230b",
+      "nom": "Martin Ødegaard",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Milieu",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "50e23d29-b5ef-4b69-8223-adaf97377641",
+      "nom": "Joueur NOR-3",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "659d0d6f-49c4-4184-8cf4-ade4a42fcaa4",
+      "nom": "Joueur NOR-4",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "0933fae8-043f-435c-9e29-50aeab774252",
+      "nom": "Joueur NOR-5",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "1695d706-4832-4850-b5ec-167a1129c885",
+      "nom": "Joueur NOR-6",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "37c7f345-f5d4-4f52-8131-7514bfe699bc",
+      "nom": "Joueur NOR-7",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "ed2cf722-3db8-4e36-b7f8-5f11f47d219b",
+      "nom": "Joueur NOR-8",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "e5634e55-f445-40f2-98b3-8c86542a4d5e",
+      "nom": "Joueur NOR-9",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "7dc89e70-4bda-419c-8698-207e9312c65a",
+      "nom": "Joueur NOR-10",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "ef666704-ec6b-4b6d-bd45-44ff161eab7f",
+      "nom": "Joueur NOR-11",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "69068c8b-a178-43f1-83cc-ebc45cabf36f",
+      "nom": "Joueur NOR-12",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "f0b1b365-fd8d-4582-87c6-eb58aee34d17",
+      "nom": "Joueur NOR-13",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "58db3a4c-9b9e-4f6a-9f19-ef2516fb866a",
+      "nom": "Joueur NOR-14",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "a70398bf-d211-47c2-bc82-eaa00b2db640",
+      "nom": "Joueur NOR-15",
+      "equipeId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "8895612b-870c-4800-ab67-3d5841fde116",
+      "nom": "Lionel Messi",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Attaquant",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "61a83b1c-0ea6-4a7f-a325-bc17cb15dc2b",
+      "nom": "Julián Álvarez",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Attaquant",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "fbb599ee-b0ae-4bc7-90ef-74ca133bddc6",
+      "nom": "Joueur ARG-3",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "5de29a64-df15-42e2-ab12-c0cec43c9176",
+      "nom": "Joueur ARG-4",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "f5bc916b-4d4c-4d9f-ba35-0a0b141b2f8f",
+      "nom": "Joueur ARG-5",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d4d8aa7-1815-4218-9989-198da42374cb",
+      "nom": "Joueur ARG-6",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "f88eb2cd-3293-4e0e-a9c5-bd2b63cdab6f",
+      "nom": "Joueur ARG-7",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "d41b078b-c7c0-4599-a05d-ef559369622d",
+      "nom": "Joueur ARG-8",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "44f63062-3da3-43c7-a3b2-f155f7d96b7e",
+      "nom": "Joueur ARG-9",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "ce8c5d94-68ee-4d75-b5ca-c3c7e5ade9bc",
+      "nom": "Joueur ARG-10",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "6d7ec03d-d245-4aa5-8224-c80bee5c6cd1",
+      "nom": "Joueur ARG-11",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "de75d9f9-9a1f-440d-bfec-676273e2c124",
+      "nom": "Joueur ARG-12",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "e18d9ae8-8f58-4db8-ad18-24980095b6a5",
+      "nom": "Joueur ARG-13",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "da8fba74-fe7f-4796-96d4-6eafb28eb081",
+      "nom": "Joueur ARG-14",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "684cfc25-99db-4ecd-b16d-0b8fdc5fa773",
+      "nom": "Joueur ARG-15",
+      "equipeId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "148c22b2-bc9a-45c5-8657-471ccab65c54",
+      "nom": "Joueur ALG-1",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "06971866-c6cd-4015-9428-f4556f820f2f",
+      "nom": "Joueur ALG-2",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "a5c81ea8-3fe2-4e52-b768-a3e5164dc5c4",
+      "nom": "Joueur ALG-3",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "5e8d10b9-dedd-4e25-9d62-a2544be91a1c",
+      "nom": "Joueur ALG-4",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "f14127bd-94b1-4e22-adfc-d14cd492ebd8",
+      "nom": "Joueur ALG-5",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "7c7968ac-141b-4c13-993e-1860abdb6c2a",
+      "nom": "Joueur ALG-6",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "a467f9c3-f6c4-4a5a-9383-78def54d924c",
+      "nom": "Joueur ALG-7",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "c56f5700-3d59-4837-bbc2-87b68ba6a1dc",
+      "nom": "Joueur ALG-8",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "d8fa7036-a1aa-473d-a1c7-7a7e24691b47",
+      "nom": "Joueur ALG-9",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "55b1aec7-ba93-4ab4-8d74-31dcdc8cf045",
+      "nom": "Joueur ALG-10",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "74f397fa-7eac-47f4-9871-92a4676892fb",
+      "nom": "Joueur ALG-11",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "d0389849-f922-48e3-8848-9960f5a43928",
+      "nom": "Joueur ALG-12",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "137d1062-168e-4c4a-a179-343b53601d30",
+      "nom": "Joueur ALG-13",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "63c96d5b-ca06-48fa-af14-c93cc653bf33",
+      "nom": "Joueur ALG-14",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "696ecb45-37d6-442f-ae80-3f6941a1f8a4",
+      "nom": "Joueur ALG-15",
+      "equipeId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "a6783bad-ac4e-47ec-b1a2-9d7ea29391cb",
+      "nom": "Joueur AUT-1",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "13a59631-aaf0-42f2-b262-2f2875a009a2",
+      "nom": "Joueur AUT-2",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "23587655-38e0-4a51-afb2-7cc19e3d4563",
+      "nom": "Joueur AUT-3",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "f38d0590-c320-43af-b0df-649b9cb19a28",
+      "nom": "Joueur AUT-4",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "ed710072-9c03-4f2f-8302-c1092b467abd",
+      "nom": "Joueur AUT-5",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d112196e-0d1e-4979-b4e6-f66173c9173a",
+      "nom": "Joueur AUT-6",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "92f51cb1-c5ab-4ad2-86f5-ed2e4a53fb78",
+      "nom": "Joueur AUT-7",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "22668fc6-c2db-413c-adf7-23d617f2d61c",
+      "nom": "Joueur AUT-8",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "d52f8ebd-3132-4c9c-9a6a-ce037342f7de",
+      "nom": "Joueur AUT-9",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "d602e37d-5abe-4cff-86fc-b604fe32bb35",
+      "nom": "Joueur AUT-10",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "3d7c3288-3ba1-4b91-a503-e8c705147418",
+      "nom": "Joueur AUT-11",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "b378f35a-4123-4134-911a-a81e676c508c",
+      "nom": "Joueur AUT-12",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "483834f7-52a4-4897-af00-4f6aec6ad65f",
+      "nom": "Joueur AUT-13",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "c561f2fe-8da6-4133-84e4-88fdbe83c9aa",
+      "nom": "Joueur AUT-14",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "fd14b151-3a47-4b14-ad28-f77914494763",
+      "nom": "Joueur AUT-15",
+      "equipeId": "8c77b0b9-2b02-4042-b866-d1577f98f0cc",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "c826a4eb-2de2-4103-967f-9861bce2bf68",
+      "nom": "Joueur JOR-1",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "d7684c07-cf6b-42f6-8395-4771f7c1297e",
+      "nom": "Joueur JOR-2",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "6559a1b8-33ff-40e9-b630-a04cc47ab848",
+      "nom": "Joueur JOR-3",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "dc80d40b-64d1-40c8-af7c-4f540aecfb92",
+      "nom": "Joueur JOR-4",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "b8aa0c6d-f70d-4d17-8e0a-aac479613922",
+      "nom": "Joueur JOR-5",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "2c20d2f4-19be-4f31-886e-e1fb3baa6915",
+      "nom": "Joueur JOR-6",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "83172748-1941-42fc-8a01-86b3829a5cd9",
+      "nom": "Joueur JOR-7",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "10d02dad-a6ce-496a-b484-d1fc228843e7",
+      "nom": "Joueur JOR-8",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "c60c7974-5c51-42fe-a656-7ab830fcdacc",
+      "nom": "Joueur JOR-9",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "5c45c7c6-1954-4afe-98a7-c3f8673f4fcd",
+      "nom": "Joueur JOR-10",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "55103cce-081b-4ae2-ad50-a639bf82542a",
+      "nom": "Joueur JOR-11",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "bdf564b5-72b1-4b4c-b466-c5393b87f022",
+      "nom": "Joueur JOR-12",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "29e3d379-00e5-45ca-8999-09dccb4053ad",
+      "nom": "Joueur JOR-13",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "c867502f-1610-4249-9679-881fa4edcc05",
+      "nom": "Joueur JOR-14",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "515e791b-a852-4cb8-b59f-f6894daf58a5",
+      "nom": "Joueur JOR-15",
+      "equipeId": "1bd0e02e-3c10-4c3c-af28-f4145537b192",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "ffc366f1-f67d-4017-96e1-80caab5064a1",
+      "nom": "Cristiano Ronaldo",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Attaquant",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "1425dc5d-d472-46c8-a758-a0a8c710d5d0",
+      "nom": "Joueur POR-2",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "99c3ac8b-8d99-4450-945f-88d0f30b8b24",
+      "nom": "Joueur POR-3",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "c56ca974-62ab-4ebc-98b1-49a0c5c80716",
+      "nom": "Joueur POR-4",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "e524ef9c-f6d4-461d-adc0-be1ca77bd8ad",
+      "nom": "Joueur POR-5",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "c6af1b13-715c-465a-a58a-6a2087dbab0a",
+      "nom": "Joueur POR-6",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "2d89b0f7-73a8-4746-b222-249f176376c8",
+      "nom": "Joueur POR-7",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "a91e5ad2-e23e-4b30-9698-b750a3c04716",
+      "nom": "Joueur POR-8",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "f2f385c0-e9de-4d04-a32a-3576e72cb7b7",
+      "nom": "Joueur POR-9",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "6764b236-cbf1-452f-b7f2-2ba339bf2558",
+      "nom": "Joueur POR-10",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "484179dd-9835-487c-99d0-ac6ecaf9ca32",
+      "nom": "Joueur POR-11",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "3cc1758b-ff1f-4099-aae9-68f5b965f2fa",
+      "nom": "Joueur POR-12",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "ba429099-bf4c-40e8-9a81-aefe7fb25070",
+      "nom": "Joueur POR-13",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "e53a6126-ecd5-4c25-875d-5e555a688206",
+      "nom": "Joueur POR-14",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "6618c9b0-7933-4fc5-b015-ce68fd868d4d",
+      "nom": "Joueur POR-15",
+      "equipeId": "3832f577-a13e-4d56-9ee2-c12a36020146",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "cc132325-df18-4a87-a8b6-f04faa3fcd60",
+      "nom": "Joueur OUZ-1",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "74b9e3ee-fc5e-4fa8-af8b-864d55a912d5",
+      "nom": "Joueur OUZ-2",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "2793849a-3068-4b7e-81bb-cca6e7690e03",
+      "nom": "Joueur OUZ-3",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "dc2995da-f124-447e-88a0-e6dc382b729e",
+      "nom": "Joueur OUZ-4",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "9ba8dca1-6f2d-437c-b58c-a1a2fd1b6aa2",
+      "nom": "Joueur OUZ-5",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "ee3be001-a531-44d1-b436-53ef058b0844",
+      "nom": "Joueur OUZ-6",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "55d9ff70-fec9-4195-9ed8-ee3247f7f686",
+      "nom": "Joueur OUZ-7",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "4bc66a17-1716-42dd-9054-0f861afc3dcf",
+      "nom": "Joueur OUZ-8",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "319d4353-f9d5-450c-83c2-3b3107cd212d",
+      "nom": "Joueur OUZ-9",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "369fd5e7-9abb-4464-a51f-62c7acdc5ad6",
+      "nom": "Joueur OUZ-10",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "af2de56a-3aa6-4fe5-b08d-693fde402c7a",
+      "nom": "Joueur OUZ-11",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "532c50df-54f5-42e0-b821-a47861006367",
+      "nom": "Joueur OUZ-12",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "8664deff-cec3-4c6d-8123-4013922645f8",
+      "nom": "Joueur OUZ-13",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a0106341-5649-47ff-9a24-b7b5516a1b1d",
+      "nom": "Joueur OUZ-14",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "3473c015-7039-455c-98dc-76231d8f868c",
+      "nom": "Joueur OUZ-15",
+      "equipeId": "434ab998-7d6d-4ccf-822f-889e39c9c27b",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "d55301fa-dcf7-4f78-97d2-24e3fbbc8a7d",
+      "nom": "Joueur COL-1",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "5087977f-ed25-4d86-b18b-80d5ecc19994",
+      "nom": "Joueur COL-2",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "b1c96047-0a62-4e38-a147-d310b40f92bc",
+      "nom": "Joueur COL-3",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "adc52bdb-ab54-4860-a723-58908a9b3715",
+      "nom": "Joueur COL-4",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "f6a8ab86-2c00-4c48-b148-785bcea9f460",
+      "nom": "Joueur COL-5",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "5ddde444-b0f0-4ccc-885e-e6edacd31f9a",
+      "nom": "Joueur COL-6",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "467320c1-4ae5-43b0-9dfe-832d4a9da2e7",
+      "nom": "Joueur COL-7",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "f11a1f68-a362-4cf7-aac2-eb9e08624fe9",
+      "nom": "Joueur COL-8",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "4aa79df0-085f-4e62-9b24-8bc46009c486",
+      "nom": "Joueur COL-9",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "689371fd-2d15-4fc8-88fd-13f08d5367f5",
+      "nom": "Joueur COL-10",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "e28c207a-2d7d-4204-95d3-cf1ff559383d",
+      "nom": "Joueur COL-11",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "8065f282-6803-4fad-a8e8-bef125bf2740",
+      "nom": "Joueur COL-12",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "03147e67-d18e-485d-b99b-ce3dd3a2ff33",
+      "nom": "Joueur COL-13",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "9845b668-4e01-481c-a0bf-27a25347d5b1",
+      "nom": "Joueur COL-14",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "18a7acdf-7c1e-4ebe-a935-19ac2c18bcd5",
+      "nom": "Joueur COL-15",
+      "equipeId": "6c68e27e-053b-453b-9d68-83cff3e42c04",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "5ea42271-cdcb-4005-833f-0fac421ccd2c",
+      "nom": "Joueur RD -1",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "f1918861-f871-451b-986f-525d7efd99bd",
+      "nom": "Joueur RD -2",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "a222d0cf-d1a4-4f5a-9f2c-3f7b3e5eb9d0",
+      "nom": "Joueur RD -3",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "7d35e587-5477-46b7-864e-fe1886446d4e",
+      "nom": "Joueur RD -4",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "c9825180-7d59-4914-ad2e-44ae39efc44c",
+      "nom": "Joueur RD -5",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "c006a0a9-585b-4daf-8648-31d11bcf6939",
+      "nom": "Joueur RD -6",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "3c08670c-774b-4e5b-9020-9885ef2622af",
+      "nom": "Joueur RD -7",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "6712710b-a841-49c0-bba2-594c46788dee",
+      "nom": "Joueur RD -8",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "6b2f218e-ceb0-4656-a969-216afb6e4ef6",
+      "nom": "Joueur RD -9",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "3104799b-a598-49a4-9e86-ed7a88b868ac",
+      "nom": "Joueur RD -10",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "1a10686e-8091-42c1-a852-18288112d509",
+      "nom": "Joueur RD -11",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "eb746088-ea02-4364-b2e6-73a423ab6ecf",
+      "nom": "Joueur RD -12",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "88417793-9c4f-4c33-9459-1203cfb3b27b",
+      "nom": "Joueur RD -13",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "f324cd8c-ea80-47e1-be4f-5cad1d21b270",
+      "nom": "Joueur RD -14",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "606becb7-d443-4bd1-aa1c-7d25e6627f65",
+      "nom": "Joueur RD -15",
+      "equipeId": "6cd13578-a200-48bc-a3df-d0ff28316714",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "3828ba38-08ca-41cd-b776-42012a0a0cec",
+      "nom": "Harry Kane",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Attaquant",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "5bfc0b65-e51e-424e-b1f6-da4dcbed1099",
+      "nom": "Jude Bellingham",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Milieu",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "941d19b0-7eb0-45de-a0ba-dc43d28d5f67",
+      "nom": "Joueur ANG-3",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "4e99110d-a0a7-4e03-acd2-864a7c17cb71",
+      "nom": "Joueur ANG-4",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "acf7297e-39d8-432b-b25e-1ccc9331de9b",
+      "nom": "Joueur ANG-5",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "e44ab70a-c8bd-40e8-b988-26dac0c1dd63",
+      "nom": "Joueur ANG-6",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "c511219a-75d9-42fa-ba61-c33ef463d5e1",
+      "nom": "Joueur ANG-7",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "d5f98860-10bd-4874-8cf1-d546018f4e23",
+      "nom": "Joueur ANG-8",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "463248c9-9a98-4de1-9a60-2d43ae3a6994",
+      "nom": "Joueur ANG-9",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "bb016745-32f4-4332-a751-da541721ad31",
+      "nom": "Joueur ANG-10",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "660a2626-f127-4021-8446-4718f08f166b",
+      "nom": "Joueur ANG-11",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "2ab6e375-b78d-4af3-8690-5a265bd8495c",
+      "nom": "Joueur ANG-12",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "0ddd2d6a-a151-42d3-8902-775c1e0655e2",
+      "nom": "Joueur ANG-13",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "dec596d0-8fcf-4a7f-9b4e-1216162be22a",
+      "nom": "Joueur ANG-14",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "5a001457-241f-43fe-a5c2-c119b83fd569",
+      "nom": "Joueur ANG-15",
+      "equipeId": "08af92cb-f02f-4daa-924b-157158f9731a",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "c565a56f-1689-4846-a22b-1a424da624b7",
+      "nom": "Luka Modrić",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Milieu",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "b4f7f77d-3c64-4098-8752-94e7a8a2364d",
+      "nom": "Joueur CRO-2",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "737ac4aa-8413-405a-bc0c-56d63dbe3f89",
+      "nom": "Joueur CRO-3",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "f75ae7cd-8a78-4385-9351-c1e7e4fd977a",
+      "nom": "Joueur CRO-4",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "d9498a22-18b7-4d82-812f-adc4435885d1",
+      "nom": "Joueur CRO-5",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "411bfb2a-4135-4b72-8ac2-5b04aa3abea6",
+      "nom": "Joueur CRO-6",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "7daff803-8ac7-4fd7-804e-901cc9a6a29c",
+      "nom": "Joueur CRO-7",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "492f0ca8-7b2b-40a4-b10e-6c8e8ac86fc4",
+      "nom": "Joueur CRO-8",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "8249db0b-0a5f-485b-9a59-d7186743493f",
+      "nom": "Joueur CRO-9",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "0156cdd5-af99-4f05-8e6e-e6c8213c641a",
+      "nom": "Joueur CRO-10",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "e90aaebb-42dc-465d-8eb9-5a6340509506",
+      "nom": "Joueur CRO-11",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "4851d8f2-fb2b-444d-89c2-54a0bdc2c60b",
+      "nom": "Joueur CRO-12",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "3ffbf0db-8d69-4350-9f9f-e1548456149c",
+      "nom": "Joueur CRO-13",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "a10ce3ea-2d0e-4750-a5b8-46f8c254f5eb",
+      "nom": "Joueur CRO-14",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "b6ca4c82-9ff0-46b8-b65f-54505d9ec0ce",
+      "nom": "Joueur CRO-15",
+      "equipeId": "32fe3dd8-1818-40c4-bd18-2851461a0596",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "6d990212-f1ee-4451-9a3e-da69ab5ce72b",
+      "nom": "Joueur GHA-1",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "203ae87f-ddb4-4192-8661-d5e04446dd64",
+      "nom": "Joueur GHA-2",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "beca7c2c-3e0b-493b-89c9-3db994668b64",
+      "nom": "Joueur GHA-3",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "dbd954ec-7f51-4019-8dcf-c6f42732df26",
+      "nom": "Joueur GHA-4",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "56d716ac-71e2-441f-af71-9666bc3bd6a5",
+      "nom": "Joueur GHA-5",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "01c00b9b-7084-4040-bb23-eb134a9b07c6",
+      "nom": "Joueur GHA-6",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "9332d945-a980-405c-95e0-dad2a3d0fe73",
+      "nom": "Joueur GHA-7",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "6ea40da7-7eaf-4ccb-adf8-04f3187da63f",
+      "nom": "Joueur GHA-8",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "61dc8fc2-a869-4b4f-a53e-1d9b8b04128e",
+      "nom": "Joueur GHA-9",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "9bc47806-9626-49f9-8216-624f7ab261e2",
+      "nom": "Joueur GHA-10",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "f1812093-3078-4c6c-8120-ec1888ec21f4",
+      "nom": "Joueur GHA-11",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "9f23ec3c-43fd-4e18-8390-5e2ee4254328",
+      "nom": "Joueur GHA-12",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "73d69b13-7bd2-414f-9d24-d5c361d640de",
+      "nom": "Joueur GHA-13",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "ce414aa9-fc04-4e75-b7e2-859aa7f5c7af",
+      "nom": "Joueur GHA-14",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "7285ff1e-7993-4be9-a79d-3c1991ebda4d",
+      "nom": "Joueur GHA-15",
+      "equipeId": "6f792145-0b99-4bd8-bf83-197fb47cb491",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    },
+    {
+      "id": "e38736cf-0b3b-4e98-a11b-5bec6df1fc5f",
+      "nom": "Joueur PAN-1",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Gardien",
+      "numero": 1,
+      "dateNaissance": null
+    },
+    {
+      "id": "66fcd26d-19c3-4871-8a30-77aa1225bb34",
+      "nom": "Joueur PAN-2",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Défenseur",
+      "numero": 2,
+      "dateNaissance": null
+    },
+    {
+      "id": "4e38b18e-fd15-4fc5-9662-074606e4748e",
+      "nom": "Joueur PAN-3",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Milieu",
+      "numero": 3,
+      "dateNaissance": null
+    },
+    {
+      "id": "3fbe9738-6bf7-4aaa-8b22-56304c92efb5",
+      "nom": "Joueur PAN-4",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Attaquant",
+      "numero": 4,
+      "dateNaissance": null
+    },
+    {
+      "id": "6df90f87-c15a-4cf2-bc19-4a444b0caf67",
+      "nom": "Joueur PAN-5",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Gardien",
+      "numero": 5,
+      "dateNaissance": null
+    },
+    {
+      "id": "d2be86d7-9fe5-4e47-bb9b-d538c6d3cf70",
+      "nom": "Joueur PAN-6",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Défenseur",
+      "numero": 6,
+      "dateNaissance": null
+    },
+    {
+      "id": "68e27344-82c2-4741-87cb-a2c8399f7673",
+      "nom": "Joueur PAN-7",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Milieu",
+      "numero": 7,
+      "dateNaissance": null
+    },
+    {
+      "id": "69d6ff3c-40e6-46c9-ac4a-d0d64cc1f82a",
+      "nom": "Joueur PAN-8",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Attaquant",
+      "numero": 8,
+      "dateNaissance": null
+    },
+    {
+      "id": "9bdb806f-a0e3-4890-bb2a-8566bd8d2b32",
+      "nom": "Joueur PAN-9",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Gardien",
+      "numero": 9,
+      "dateNaissance": null
+    },
+    {
+      "id": "7bf4b15e-939a-456a-b810-475edbc3a49b",
+      "nom": "Joueur PAN-10",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Défenseur",
+      "numero": 10,
+      "dateNaissance": null
+    },
+    {
+      "id": "6d77348a-a7ae-405f-8f22-e6b31fc79067",
+      "nom": "Joueur PAN-11",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Milieu",
+      "numero": 11,
+      "dateNaissance": null
+    },
+    {
+      "id": "16521817-1eb0-409a-b28b-d999b4fb92e5",
+      "nom": "Joueur PAN-12",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Attaquant",
+      "numero": 12,
+      "dateNaissance": null
+    },
+    {
+      "id": "ffab2556-c561-45a1-ac2e-bb29ac827767",
+      "nom": "Joueur PAN-13",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Gardien",
+      "numero": 13,
+      "dateNaissance": null
+    },
+    {
+      "id": "376abb20-b071-4743-a9c2-080058dfc310",
+      "nom": "Joueur PAN-14",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Défenseur",
+      "numero": 14,
+      "dateNaissance": null
+    },
+    {
+      "id": "9328e36e-bff1-41cf-96ac-ab5d779494ea",
+      "nom": "Joueur PAN-15",
+      "equipeId": "4646504c-4566-4d55-a940-aabea048f35b",
+      "poste": "Milieu",
+      "numero": 15,
+      "dateNaissance": null
+    }
+  ],
+  "coaches": [],
+  "referees": [
+    {
+      "id": "b80ce860-d397-4e83-8943-045aa60f91ad",
+      "nom": "Szymon Marciniak",
+      "nationalite": "Pologne",
+      "role": "arbitre central"
+    },
+    {
+      "id": "93eb8f8a-e89f-4417-bd71-44d205fdbd38",
+      "nom": "Clément Turpin",
+      "nationalite": "France",
+      "role": "arbitre central"
+    },
+    {
+      "id": "aab5efb8-30d8-4582-aa8a-45d2f8cc08d3",
+      "nom": "Michael Oliver",
+      "nationalite": "Angleterre",
+      "role": "arbitre central"
+    },
+    {
+      "id": "032a5768-2014-4256-aa7d-841b288dacc6",
+      "nom": "István Kovács",
+      "nationalite": "Roumanie",
+      "role": "arbitre central"
+    },
+    {
+      "id": "78ba1911-4adc-4a15-a378-d06e8ed489f5",
+      "nom": "Facundo Tello",
+      "nationalite": "Argentine",
+      "role": "arbitre central"
+    },
+    {
+      "id": "1cde4e92-129e-4366-a0a2-08688829f5e4",
+      "nom": "Ismail Elfath",
+      "nationalite": "États-Unis",
+      "role": "arbitre central"
+    }
+  ],
+  "stadiums": [
+    {
+      "id": "dbbedc65-9a06-46f0-a995-2d4af316eaa7",
+      "nom": "Estadio Azteca",
+      "ville": "Mexico",
+      "pays": "Mexique",
+      "capacite": 87523
+    },
+    {
+      "id": "c19f8099-590f-4906-a22a-8e32ee82d1a4",
+      "nom": "Estadio Akron",
+      "ville": "Guadalajara",
+      "pays": "Mexique",
+      "capacite": 48071
+    },
+    {
+      "id": "0dd01e60-bfde-40a2-a4e3-dac766200fab",
+      "nom": "Estadio BBVA",
+      "ville": "Monterrey",
+      "pays": "Mexique",
+      "capacite": 53500
+    },
+    {
+      "id": "8c31da0a-c5ae-4b45-8233-c0702d8b2a88",
+      "nom": "BC Place",
+      "ville": "Vancouver",
+      "pays": "Canada",
+      "capacite": 54500
+    },
+    {
+      "id": "de3e8e1f-dd4f-40ec-9408-48376da0b3cb",
+      "nom": "BMO Field",
+      "ville": "Toronto",
+      "pays": "Canada",
+      "capacite": 45736
+    },
+    {
+      "id": "d6228650-b0d7-4c63-8ef4-ffa1794049b1",
+      "nom": "MetLife Stadium",
+      "ville": "East Rutherford (New York/New Jersey)",
+      "pays": "États-Unis",
+      "capacite": 82500
+    },
+    {
+      "id": "69403218-ec5e-47d4-9e33-36784ae1d9e7",
+      "nom": "Mercedes-Benz Stadium",
+      "ville": "Atlanta",
+      "pays": "États-Unis",
+      "capacite": 71000
+    },
+    {
+      "id": "8a27ea8a-398c-46d6-aafb-d7133e77e109",
+      "nom": "Gillette Stadium",
+      "ville": "Boston",
+      "pays": "États-Unis",
+      "capacite": 65878
+    },
+    {
+      "id": "f42f35dc-9be7-4c3f-b59b-38f148384fe8",
+      "nom": "AT&T Stadium",
+      "ville": "Dallas",
+      "pays": "États-Unis",
+      "capacite": 94000
+    },
+    {
+      "id": "29c21c57-5de6-4063-b4b9-d6b51248335c",
+      "nom": "NRG Stadium",
+      "ville": "Houston",
+      "pays": "États-Unis",
+      "capacite": 72220
+    },
+    {
+      "id": "9a6e9aaa-65e4-4d1f-bb7c-e09ba3f87d4a",
+      "nom": "Arrowhead Stadium",
+      "ville": "Kansas City",
+      "pays": "États-Unis",
+      "capacite": 76416
+    },
+    {
+      "id": "becb31ea-82fc-4206-a785-6c3f0e0a2e56",
+      "nom": "SoFi Stadium",
+      "ville": "Los Angeles",
+      "pays": "États-Unis",
+      "capacite": 70240
+    },
+    {
+      "id": "3e01e4a9-efb1-45c3-90dc-372fae552068",
+      "nom": "Hard Rock Stadium",
+      "ville": "Miami",
+      "pays": "États-Unis",
+      "capacite": 64767
+    },
+    {
+      "id": "77c44762-7754-4af8-98c6-0982e788e8bc",
+      "nom": "Lincoln Financial Field",
+      "ville": "Philadelphie",
+      "pays": "États-Unis",
+      "capacite": 69796
+    },
+    {
+      "id": "1f8dd201-0acc-4ccf-92f4-940e232857b9",
+      "nom": "Levi's Stadium",
+      "ville": "San Francisco Bay Area",
+      "pays": "États-Unis",
+      "capacite": 68500
+    },
+    {
+      "id": "240b8528-6281-4e38-aab2-12d994deccef",
+      "nom": "Lumen Field",
+      "ville": "Seattle",
+      "pays": "États-Unis",
+      "capacite": 69000
+    }
+  ],
+  "matches": [
+    {
+      "id": "85256640-3515-4408-92ca-84b4c5dd9bb4",
+      "equipeDomicileId": "e69dc739-b009-4ffd-8b7e-1b55ea396348",
+      "equipeExterieurId": "94f74f61-c923-4443-8f86-5f33e4539f9c",
+      "date": "2026-06-11",
+      "heure": "20:00",
+      "stadeId": "dbbedc65-9a06-46f0-a995-2d4af316eaa7",
+      "arbitreId": "b80ce860-d397-4e83-8943-045aa60f91ad",
+      "phase": "Phase de groupes - Groupe A",
+      "status": "à venir",
+      "scoreDomicile": null,
+      "scoreExterieur": null
+    },
+    {
+      "id": "4212408f-558e-44e1-b083-d54c07742021",
+      "equipeDomicileId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "equipeExterieurId": "39246c06-8d54-4d41-8b33-27c94da8d632",
+      "date": "2026-06-16",
+      "heure": "18:00",
+      "stadeId": "d6228650-b0d7-4c63-8ef4-ffa1794049b1",
+      "arbitreId": "93eb8f8a-e89f-4417-bd71-44d205fdbd38",
+      "phase": "Phase de groupes - Groupe I",
+      "status": "à venir",
+      "scoreDomicile": null,
+      "scoreExterieur": null
+    },
+    {
+      "id": "0c95156c-f272-41e4-82fe-394c116c2aa2",
+      "equipeDomicileId": "8bf59830-604c-4182-b9b0-4464540fce6f",
+      "equipeExterieurId": "3da2e075-f5da-4c75-a601-9a1badf8f2c1",
+      "date": "2026-06-22",
+      "heure": "15:00",
+      "stadeId": "77c44762-7754-4af8-98c6-0982e788e8bc",
+      "arbitreId": "aab5efb8-30d8-4582-aa8a-45d2f8cc08d3",
+      "phase": "Phase de groupes - Groupe I",
+      "status": "à venir",
+      "scoreDomicile": null,
+      "scoreExterieur": null
+    },
+    {
+      "id": "daae4a8f-0948-4c2b-a831-fe49afeefea7",
+      "equipeDomicileId": "c8e00fc9-ba7c-4235-922e-23e8fab99661",
+      "equipeExterieurId": "2d272d04-84a3-4083-80f7-9cf07128f046",
+      "date": "2026-06-13",
+      "heure": "17:00",
+      "stadeId": "3e01e4a9-efb1-45c3-90dc-372fae552068",
+      "arbitreId": "032a5768-2014-4256-aa7d-841b288dacc6",
+      "phase": "Phase de groupes - Groupe J",
+      "status": "terminé",
+      "scoreDomicile": 2,
+      "scoreExterieur": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "843de423-0c47-4128-ad72-e9d5288207f9",
+      "matchId": "daae4a8f-0948-4c2b-a831-fe49afeefea7",
+      "joueurId": "8895612b-870c-4800-ab67-3d5841fde116",
+      "type": "but",
+      "minute": 23
+    },
+    {
+      "id": "e70475a8-c585-466f-bbd9-3181b21756bb",
+      "matchId": "daae4a8f-0948-4c2b-a831-fe49afeefea7",
+      "joueurId": "8895612b-870c-4800-ab67-3d5841fde116",
+      "type": "but",
+      "minute": 67
+    }
+  ],
+  "notifications": []
+}
